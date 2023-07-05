@@ -1,0 +1,42 @@
+Epoch 1/10
+ 4/70 [>.............................] - ETA: 16s - loss: 0.9226 - accuracy: 0.8457 - jaccard_coef: 0.6830
+ 6/70 [=>............................] - ETA: 16s - loss: 0.9243 - accuracy: 0.8373 - jaccard_coef: 0.6692WARNING:tensorflow:Callback method `on_train_batch_end` is slow compared to the batch time (batch time: 0.0960s vs `on_train_batch_end` time: 0.1583s). Check your callbacks.
+
+
+
+
+
+
+
+70/70 [==============================] - ETA: 0s - loss: 0.9245 - accuracy: 0.8303 - jaccard_coef: 0.6521
+WARNING:absl:Found untraced functions such as _jit_compiled_convolution_op, _jit_compiled_convolution_op, _jit_compiled_convolution_op, _jit_compiled_convolution_op, _jit_compiled_convolution_op while saving (showing 5 of 22). These functions will not be directly callable after loading.
+INFO:tensorflow:Assets written to: E:\Learning\Remote Sensing and Deep learning\Deep Learning Workshop for Satellite Imagery\wandb\run-20230506_114311-hh8xv38c\files\model-best\assets
+
+70/70 [==============================] - ETA: 0s - loss: 0.9245 - accuracy: 0.8303 - jaccard_coef: 0.6521INFO:tensorflow:Assets written to: E:\Learning\Remote Sensing and Deep learning\Deep Learning Workshop for Satellite Imagery\wandb\run-20230506_114311-hh8xv38c\files\model-best\assets
+WARNING:absl:Found untraced functions such as _jit_compiled_convolution_op, _jit_compiled_convolution_op, _jit_compiled_convolution_op, _jit_compiled_convolution_op, _jit_compiled_convolution_op while saving (showing 5 of 22). These functions will not be directly callable after loading.
+INFO:tensorflow:Assets written to: E:\Learning\Remote Sensing and Deep learning\Deep Learning Workshop for Satellite Imagery\wandb\run-20230506_114311-hh8xv38c\files\model-best\assets
+[34m[1mwandb[39m[22m: Adding directory to artifact (E:\Learning\Remote Sensing and Deep learning\Deep Learning Workshop for Satellite Imagery\wandb\run-20230506_114311-hh8xv38c\files\model-best)... Done. 0.1s
+70/70 [==============================] - 22s 310ms/step - loss: 0.9245 - accuracy: 0.8303 - jaccard_coef: 0.6521 - val_loss: 0.9359 - val_accuracy: 0.7898 - val_jaccard_coef: 0.6086
+Epoch 2/10
+70/70 [==============================] - ETA: 0s - loss: 0.9215 - accuracy: 0.8378 - jaccard_coef: 0.6648INFO:tensorflow:Assets written to: E:\Learning\Remote Sensing and Deep learning\Deep Learning Workshop for Satellite Imagery\wandb\run-20230506_114311-hh8xv38c\files\model-best\assets
+70/70 [==============================] - 20s 284ms/step - loss: 0.9215 - accuracy: 0.8378 - jaccard_coef: 0.6648 - val_loss: 0.9321 - val_accuracy: 0.8081 - val_jaccard_coef: 0.6430
+Epoch 3/10
+70/70 [==============================] - ETA: 0s - loss: 0.9185 - accuracy: 0.8453 - jaccard_coef: 0.6782INFO:tensorflow:Assets written to: E:\Learning\Remote Sensing and Deep learning\Deep Learning Workshop for Satellite Imagery\wandb\run-20230506_114311-hh8xv38c\files\model-best\assets
+WARNING:absl:Found untraced functions such as _jit_compiled_convolution_op, _jit_compiled_convolution_op, _jit_compiled_convolution_op, _jit_compiled_convolution_op, _jit_compiled_convolution_op while saving (showing 5 of 22). These functions will not be directly callable after loading.
+INFO:tensorflow:Assets written to: E:\Learning\Remote Sensing and Deep learning\Deep Learning Workshop for Satellite Imagery\wandb\run-20230506_114311-hh8xv38c\files\model-best\assets
+[34m[1mwandb[39m[22m: Adding directory to artifact (E:\Learning\Remote Sensing and Deep learning\Deep Learning Workshop for Satellite Imagery\wandb\run-20230506_114311-hh8xv38c\files\model-best)... Done. 0.1s
+WARNING:absl:Found untraced functions such as _jit_compiled_convolution_op, _jit_compiled_convolution_op, _jit_compiled_convolution_op, _jit_compiled_convolution_op, _jit_compiled_convolution_op while saving (showing 5 of 22). These functions will not be directly callable after loading.
+INFO:tensorflow:Assets written to: E:\Learning\Remote Sensing and Deep learning\Deep Learning Workshop for Satellite Imagery\wandb\run-20230506_114311-hh8xv38c\files\model-best\assets
+[34m[1mwandb[39m[22m: Adding directory to artifact (E:\Learning\Remote Sensing and Deep learning\Deep Learning Workshop for Satellite Imagery\wandb\run-20230506_114311-hh8xv38c\files\model-best)... Done. 0.1s
+70/70 [==============================] - 21s 295ms/step - loss: 0.9185 - accuracy: 0.8453 - jaccard_coef: 0.6782 - val_loss: 0.9261 - val_accuracy: 0.8225 - val_jaccard_coef: 0.6657
+Epoch 4/10
+70/70 [==============================] - ETA: 0s - loss: 0.9169 - accuracy: 0.8493 - jaccard_coef: 0.6851INFO:tensorflow:Assets written to: E:\Learning\Remote Sensing and Deep learning\Deep Learning Workshop for Satellite Imagery\wandb\run-20230506_114311-hh8xv38c\files\model-best\assets
+WARNING:absl:Found untraced functions such as _jit_compiled_convolution_op, _jit_compiled_convolution_op, _jit_compiled_convolution_op, _jit_compiled_convolution_op, _jit_compiled_convolution_op while saving (showing 5 of 22). These functions will not be directly callable after loading.
+INFO:tensorflow:Assets written to: E:\Learning\Remote Sensing and Deep learning\Deep Learning Workshop for Satellite Imagery\wandb\run-20230506_114311-hh8xv38c\files\model-best\assets
+[34m[1mwandb[39m[22m: Adding directory to artifact (E:\Learning\Remote Sensing and Deep learning\Deep Learning Workshop for Satellite Imagery\wandb\run-20230506_114311-hh8xv38c\files\model-best)... Done. 0.1s
+70/70 [==============================] - 19s 274ms/step - loss: 0.9169 - accuracy: 0.8493 - jaccard_coef: 0.6851 - val_loss: 0.9216 - val_accuracy: 0.8341 - val_jaccard_coef: 0.6826
+Epoch 5/10
+70/70 [==============================] - 17s 242ms/step - loss: 0.9156 - accuracy: 0.8515 - jaccard_coef: 0.6894 - val_loss: 0.9225 - val_accuracy: 0.8325 - val_jaccard_coef: 0.6849
+Epoch 6/10
+70/70 [==============================] - 19s 267ms/step - loss: 0.9151 - accuracy: 0.8525 - jaccard_coef: 0.6916 - val_loss: 0.9218 - val_accuracy: 0.8337 - val_jaccard_coef: 0.6872
+Epoch 7/10

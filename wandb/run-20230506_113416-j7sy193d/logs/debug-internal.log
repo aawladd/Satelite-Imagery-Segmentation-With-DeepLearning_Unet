@@ -1,0 +1,564 @@
+2023-05-06 11:34:25,763 INFO    StreamThr :19688 [internal.py:wandb_internal():86] W&B internal server running at pid: 19688, started at: 2023-05-06 11:34:25.762048
+2023-05-06 11:34:25,764 DEBUG   HandlerThread:19688 [handler.py:handle_request():144] handle_request: status
+2023-05-06 11:34:25,765 INFO    WriterThread:19688 [datastore.py:open_for_write():85] open: E:\Learning\Remote Sensing and Deep learning\Deep Learning Workshop for Satellite Imagery\wandb\run-20230506_113416-j7sy193d\run-j7sy193d.wandb
+2023-05-06 11:34:25,766 DEBUG   SenderThread:19688 [sender.py:send():375] send: header
+2023-05-06 11:34:25,766 DEBUG   SenderThread:19688 [sender.py:send():375] send: run
+2023-05-06 11:34:26,590 INFO    SenderThread:19688 [dir_watcher.py:__init__():219] watching files in: E:\Learning\Remote Sensing and Deep learning\Deep Learning Workshop for Satellite Imagery\wandb\run-20230506_113416-j7sy193d\files
+2023-05-06 11:34:26,590 INFO    SenderThread:19688 [sender.py:_start_run_threads():1124] run started: j7sy193d with start time 1683351265.079867
+2023-05-06 11:34:26,590 DEBUG   SenderThread:19688 [sender.py:send_request():402] send_request: summary_record
+2023-05-06 11:34:26,590 INFO    SenderThread:19688 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2023-05-06 11:34:26,591 DEBUG   HandlerThread:19688 [handler.py:handle_request():144] handle_request: check_version
+2023-05-06 11:34:26,592 DEBUG   SenderThread:19688 [sender.py:send_request():402] send_request: check_version
+2023-05-06 11:34:26,887 DEBUG   HandlerThread:19688 [handler.py:handle_request():144] handle_request: run_start
+2023-05-06 11:34:26,891 DEBUG   HandlerThread:19688 [system_info.py:__init__():31] System info init
+2023-05-06 11:34:26,891 DEBUG   HandlerThread:19688 [system_info.py:__init__():46] System info init done
+2023-05-06 11:34:26,891 INFO    HandlerThread:19688 [system_monitor.py:start():181] Starting system monitor
+2023-05-06 11:34:26,892 INFO    SystemMonitor:19688 [system_monitor.py:_start():145] Starting system asset monitoring threads
+2023-05-06 11:34:26,892 INFO    HandlerThread:19688 [system_monitor.py:probe():201] Collecting system info
+2023-05-06 11:34:26,896 INFO    SystemMonitor:19688 [interfaces.py:start():190] Started cpu monitoring
+2023-05-06 11:34:26,896 INFO    SystemMonitor:19688 [interfaces.py:start():190] Started disk monitoring
+2023-05-06 11:34:26,897 INFO    SystemMonitor:19688 [interfaces.py:start():190] Started gpu monitoring
+2023-05-06 11:34:26,902 INFO    SystemMonitor:19688 [interfaces.py:start():190] Started memory monitoring
+2023-05-06 11:34:26,905 DEBUG   HandlerThread:19688 [system_info.py:probe():195] Probing system
+2023-05-06 11:34:26,905 DEBUG   HandlerThread:19688 [system_info.py:probe():240] Probing system done
+2023-05-06 11:34:26,909 DEBUG   HandlerThread:19688 [system_monitor.py:probe():210] {'os': 'Windows-10-10.0.22621-SP0', 'python': '3.10.9', 'heartbeatAt': '2023-05-06T05:34:26.905419', 'startedAt': '2023-05-06T05:34:16.013671', 'docker': None, 'cuda': None, 'args': None, 'state': 'running', 'program': '<python with no main file>', 'host': 'DESKTOP-6HOVJRE', 'username': 'awlad', 'executable': 'C:\\Users\\awlad\\AppData\\Local\\Programs\\Python\\Python310\\python.exe', 'cpu_count': 6, 'cpu_count_logical': 6, 'cpu_freq': {'current': 3600.0, 'min': 0.0, 'max': 3600.0}, 'cpu_freq_per_core': [{'current': 3600.0, 'min': 0.0, 'max': 3600.0}], 'disk': {'total': 111.78710556030273, 'used': 79.6710205078125}, 'gpu': 'NVIDIA GeForce GTX 1650 SUPER', 'gpu_count': 1, 'gpu_devices': [{'name': 'NVIDIA GeForce GTX 1650 SUPER', 'memory_total': 4294967296}], 'memory': {'total': 15.931522369384766}}
+2023-05-06 11:34:26,909 INFO    SystemMonitor:19688 [interfaces.py:start():190] Started network monitoring
+2023-05-06 11:34:26,909 INFO    HandlerThread:19688 [system_monitor.py:probe():211] Finished collecting system info
+2023-05-06 11:34:26,909 INFO    HandlerThread:19688 [system_monitor.py:probe():214] Publishing system info
+2023-05-06 11:34:26,909 DEBUG   HandlerThread:19688 [system_info.py:_save_pip():51] Saving list of pip packages installed into the current environment
+2023-05-06 11:34:26,910 DEBUG   HandlerThread:19688 [system_info.py:_save_pip():67] Saving pip packages done
+2023-05-06 11:34:26,911 INFO    HandlerThread:19688 [system_monitor.py:probe():216] Finished publishing system info
+2023-05-06 11:34:26,911 DEBUG   SenderThread:19688 [sender.py:send():375] send: files
+2023-05-06 11:34:26,911 INFO    SenderThread:19688 [sender.py:_save_file():1378] saving file wandb-metadata.json with policy now
+2023-05-06 11:34:26,922 DEBUG   HandlerThread:19688 [handler.py:handle_request():144] handle_request: stop_status
+2023-05-06 11:34:26,922 DEBUG   SenderThread:19688 [sender.py:send_request():402] send_request: stop_status
+2023-05-06 11:34:27,352 DEBUG   SenderThread:19688 [sender.py:send():375] send: telemetry
+2023-05-06 11:34:27,606 INFO    Thread-28 :19688 [dir_watcher.py:_on_file_created():278] file/dir created: E:\Learning\Remote Sensing and Deep learning\Deep Learning Workshop for Satellite Imagery\wandb\run-20230506_113416-j7sy193d\files\requirements.txt
+2023-05-06 11:34:27,607 INFO    Thread-28 :19688 [dir_watcher.py:_on_file_created():278] file/dir created: E:\Learning\Remote Sensing and Deep learning\Deep Learning Workshop for Satellite Imagery\wandb\run-20230506_113416-j7sy193d\files\wandb-summary.json
+2023-05-06 11:34:27,607 INFO    Thread-28 :19688 [dir_watcher.py:_on_file_created():278] file/dir created: E:\Learning\Remote Sensing and Deep learning\Deep Learning Workshop for Satellite Imagery\wandb\run-20230506_113416-j7sy193d\files\wandb-metadata.json
+2023-05-06 11:34:27,833 INFO    wandb-upload_0:19688 [upload_job.py:push():137] Uploaded file C:\Users\awlad\AppData\Local\Temp\tmpy0xt01b5wandb\spoe8n43-wandb-metadata.json
+2023-05-06 11:34:31,382 DEBUG   HandlerThread:19688 [handler.py:handle_request():144] handle_request: status_report
+2023-05-06 11:34:36,432 DEBUG   HandlerThread:19688 [handler.py:handle_request():144] handle_request: status_report
+2023-05-06 11:34:41,483 DEBUG   HandlerThread:19688 [handler.py:handle_request():144] handle_request: status_report
+2023-05-06 11:34:41,922 DEBUG   HandlerThread:19688 [handler.py:handle_request():144] handle_request: stop_status
+2023-05-06 11:34:41,922 DEBUG   SenderThread:19688 [sender.py:send_request():402] send_request: stop_status
+2023-05-06 11:34:47,256 DEBUG   HandlerThread:19688 [handler.py:handle_request():144] handle_request: status_report
+2023-05-06 11:34:52,307 DEBUG   HandlerThread:19688 [handler.py:handle_request():144] handle_request: status_report
+2023-05-06 11:34:56,917 DEBUG   HandlerThread:19688 [handler.py:handle_request():144] handle_request: stop_status
+2023-05-06 11:34:56,917 DEBUG   SenderThread:19688 [sender.py:send_request():402] send_request: stop_status
+2023-05-06 11:34:58,233 DEBUG   HandlerThread:19688 [handler.py:handle_request():144] handle_request: status_report
+2023-05-06 11:34:58,898 INFO    Thread-28 :19688 [dir_watcher.py:_on_file_modified():295] file/dir modified: E:\Learning\Remote Sensing and Deep learning\Deep Learning Workshop for Satellite Imagery\wandb\run-20230506_113416-j7sy193d\files\config.yaml
+2023-05-06 11:35:03,615 DEBUG   HandlerThread:19688 [handler.py:handle_request():144] handle_request: status_report
+2023-05-06 11:35:08,681 DEBUG   HandlerThread:19688 [handler.py:handle_request():144] handle_request: status_report
+2023-05-06 11:35:11,927 DEBUG   HandlerThread:19688 [handler.py:handle_request():144] handle_request: stop_status
+2023-05-06 11:35:11,928 DEBUG   SenderThread:19688 [sender.py:send_request():402] send_request: stop_status
+2023-05-06 11:35:14,248 DEBUG   HandlerThread:19688 [handler.py:handle_request():144] handle_request: status_report
+2023-05-06 11:35:19,305 DEBUG   HandlerThread:19688 [handler.py:handle_request():144] handle_request: status_report
+2023-05-06 11:35:24,357 DEBUG   HandlerThread:19688 [handler.py:handle_request():144] handle_request: status_report
+2023-05-06 11:35:26,913 DEBUG   SystemMonitor:19688 [system_monitor.py:_start():159] Starting system metrics aggregation loop
+2023-05-06 11:35:26,914 DEBUG   SenderThread:19688 [sender.py:send():375] send: stats
+2023-05-06 11:35:26,943 DEBUG   HandlerThread:19688 [handler.py:handle_request():144] handle_request: stop_status
+2023-05-06 11:35:26,944 DEBUG   SenderThread:19688 [sender.py:send_request():402] send_request: stop_status
+2023-05-06 11:35:29,481 DEBUG   HandlerThread:19688 [handler.py:handle_request():144] handle_request: status_report
+2023-05-06 11:35:34,540 DEBUG   HandlerThread:19688 [handler.py:handle_request():144] handle_request: status_report
+2023-05-06 11:35:39,598 DEBUG   HandlerThread:19688 [handler.py:handle_request():144] handle_request: status_report
+2023-05-06 11:35:41,944 DEBUG   HandlerThread:19688 [handler.py:handle_request():144] handle_request: stop_status
+2023-05-06 11:35:41,944 DEBUG   SenderThread:19688 [sender.py:send_request():402] send_request: stop_status
+2023-05-06 11:35:45,262 DEBUG   HandlerThread:19688 [handler.py:handle_request():144] handle_request: status_report
+2023-05-06 11:35:50,310 DEBUG   HandlerThread:19688 [handler.py:handle_request():144] handle_request: status_report
+2023-05-06 11:35:55,360 DEBUG   HandlerThread:19688 [handler.py:handle_request():144] handle_request: status_report
+2023-05-06 11:35:55,832 DEBUG   SenderThread:19688 [sender.py:send():375] send: telemetry
+2023-05-06 11:35:56,924 DEBUG   SenderThread:19688 [sender.py:send():375] send: stats
+2023-05-06 11:35:56,955 DEBUG   HandlerThread:19688 [handler.py:handle_request():144] handle_request: stop_status
+2023-05-06 11:35:56,955 DEBUG   SenderThread:19688 [sender.py:send_request():402] send_request: stop_status
+2023-05-06 11:35:57,258 DEBUG   SenderThread:19688 [sender.py:send():375] send: telemetry
+2023-05-06 11:36:01,299 DEBUG   HandlerThread:19688 [handler.py:handle_request():144] handle_request: status_report
+2023-05-06 11:36:02,574 INFO    Thread-28 :19688 [dir_watcher.py:_on_file_modified():295] file/dir modified: E:\Learning\Remote Sensing and Deep learning\Deep Learning Workshop for Satellite Imagery\wandb\run-20230506_113416-j7sy193d\files\config.yaml
+2023-05-06 11:36:06,685 DEBUG   HandlerThread:19688 [handler.py:handle_request():144] handle_request: status_report
+2023-05-06 11:36:11,717 DEBUG   HandlerThread:19688 [handler.py:handle_request():144] handle_request: status_report
+2023-05-06 11:36:13,008 DEBUG   HandlerThread:19688 [handler.py:handle_request():144] handle_request: stop_status
+2023-05-06 11:36:13,009 DEBUG   SenderThread:19688 [sender.py:send_request():402] send_request: stop_status
+2023-05-06 11:36:14,660 INFO    Thread-28 :19688 [dir_watcher.py:_on_file_created():278] file/dir created: E:\Learning\Remote Sensing and Deep learning\Deep Learning Workshop for Satellite Imagery\wandb\run-20230506_113416-j7sy193d\files\output.log
+2023-05-06 11:36:16,685 INFO    Thread-28 :19688 [dir_watcher.py:_on_file_modified():295] file/dir modified: E:\Learning\Remote Sensing and Deep learning\Deep Learning Workshop for Satellite Imagery\wandb\run-20230506_113416-j7sy193d\files\output.log
+2023-05-06 11:36:16,762 DEBUG   HandlerThread:19688 [handler.py:handle_request():144] handle_request: status_report
+2023-05-06 11:36:22,368 DEBUG   HandlerThread:19688 [handler.py:handle_request():144] handle_request: status_report
+2023-05-06 11:36:22,745 INFO    Thread-28 :19688 [dir_watcher.py:_on_file_modified():295] file/dir modified: E:\Learning\Remote Sensing and Deep learning\Deep Learning Workshop for Satellite Imagery\wandb\run-20230506_113416-j7sy193d\files\output.log
+2023-05-06 11:36:26,927 DEBUG   SenderThread:19688 [sender.py:send():375] send: stats
+2023-05-06 11:36:27,908 DEBUG   HandlerThread:19688 [handler.py:handle_request():144] handle_request: stop_status
+2023-05-06 11:36:27,909 DEBUG   SenderThread:19688 [sender.py:send_request():402] send_request: stop_status
+2023-05-06 11:36:28,204 DEBUG   HandlerThread:19688 [handler.py:handle_request():144] handle_request: status_report
+2023-05-06 11:36:32,968 DEBUG   SenderThread:19688 [sender.py:send():375] send: telemetry
+2023-05-06 11:36:32,968 DEBUG   SenderThread:19688 [sender.py:send():375] send: telemetry
+2023-05-06 11:36:32,968 DEBUG   SenderThread:19688 [sender.py:send():375] send: files
+2023-05-06 11:36:32,969 INFO    SenderThread:19688 [sender.py:_save_file():1378] saving file model-best.h5 with policy live
+2023-05-06 11:36:32,969 DEBUG   SenderThread:19688 [sender.py:send():375] send: telemetry
+2023-05-06 11:36:32,969 DEBUG   HandlerThread:19688 [handler.py:handle_request():144] handle_request: get_summary
+2023-05-06 11:36:33,865 INFO    Thread-28 :19688 [dir_watcher.py:_on_file_modified():295] file/dir modified: E:\Learning\Remote Sensing and Deep learning\Deep Learning Workshop for Satellite Imagery\wandb\run-20230506_113416-j7sy193d\files\output.log
+2023-05-06 11:36:34,155 DEBUG   HandlerThread:19688 [handler.py:handle_request():144] handle_request: status_report
+2023-05-06 11:36:34,868 INFO    Thread-28 :19688 [dir_watcher.py:_on_file_modified():295] file/dir modified: E:\Learning\Remote Sensing and Deep learning\Deep Learning Workshop for Satellite Imagery\wandb\run-20230506_113416-j7sy193d\files\config.yaml
+2023-05-06 11:36:35,874 INFO    Thread-28 :19688 [dir_watcher.py:_on_file_modified():295] file/dir modified: E:\Learning\Remote Sensing and Deep learning\Deep Learning Workshop for Satellite Imagery\wandb\run-20230506_113416-j7sy193d\files\output.log
+2023-05-06 11:36:39,532 DEBUG   HandlerThread:19688 [handler.py:handle_request():144] handle_request: status_report
+2023-05-06 11:36:42,916 DEBUG   HandlerThread:19688 [handler.py:handle_request():144] handle_request: stop_status
+2023-05-06 11:36:42,916 DEBUG   SenderThread:19688 [sender.py:send_request():402] send_request: stop_status
+2023-05-06 11:36:44,821 DEBUG   SenderThread:19688 [sender.py:send():375] send: files
+2023-05-06 11:36:44,821 INFO    SenderThread:19688 [sender.py:_save_file():1378] saving file media\graph\graph_summary_3fbe27ffa1e54cf91604.graph.json with policy now
+2023-05-06 11:36:44,822 DEBUG   SenderThread:19688 [sender.py:send_request():402] send_request: summary_record
+2023-05-06 11:36:44,822 DEBUG   HandlerThread:19688 [handler.py:handle_request():144] handle_request: status_report
+2023-05-06 11:36:44,823 INFO    SenderThread:19688 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2023-05-06 11:36:44,962 INFO    Thread-28 :19688 [dir_watcher.py:_on_file_modified():295] file/dir modified: E:\Learning\Remote Sensing and Deep learning\Deep Learning Workshop for Satellite Imagery\wandb\run-20230506_113416-j7sy193d\files\wandb-summary.json
+2023-05-06 11:36:44,963 INFO    Thread-28 :19688 [dir_watcher.py:_on_file_created():278] file/dir created: E:\Learning\Remote Sensing and Deep learning\Deep Learning Workshop for Satellite Imagery\wandb\run-20230506_113416-j7sy193d\files\media\graph\graph_summary_3fbe27ffa1e54cf91604.graph.json
+2023-05-06 11:36:44,963 INFO    Thread-28 :19688 [dir_watcher.py:_on_file_created():278] file/dir created: E:\Learning\Remote Sensing and Deep learning\Deep Learning Workshop for Satellite Imagery\wandb\run-20230506_113416-j7sy193d\files\media
+2023-05-06 11:36:44,963 INFO    Thread-28 :19688 [dir_watcher.py:_on_file_created():278] file/dir created: E:\Learning\Remote Sensing and Deep learning\Deep Learning Workshop for Satellite Imagery\wandb\run-20230506_113416-j7sy193d\files\media\graph
+2023-05-06 11:36:45,686 INFO    wandb-upload_0:19688 [upload_job.py:push():137] Uploaded file C:\Users\awlad\AppData\Local\Temp\tmpy0xt01b5wandb\btz50xei-media/graph/graph_summary_3fbe27ffa1e54cf91604.graph.json
+2023-05-06 11:36:45,964 INFO    Thread-28 :19688 [dir_watcher.py:_on_file_modified():295] file/dir modified: E:\Learning\Remote Sensing and Deep learning\Deep Learning Workshop for Satellite Imagery\wandb\run-20230506_113416-j7sy193d\files\output.log
+2023-05-06 11:36:47,973 INFO    Thread-28 :19688 [dir_watcher.py:_on_file_modified():295] file/dir modified: E:\Learning\Remote Sensing and Deep learning\Deep Learning Workshop for Satellite Imagery\wandb\run-20230506_113416-j7sy193d\files\output.log
+2023-05-06 11:36:49,853 DEBUG   HandlerThread:19688 [handler.py:handle_request():144] handle_request: status_report
+2023-05-06 11:36:49,986 INFO    Thread-28 :19688 [dir_watcher.py:_on_file_modified():295] file/dir modified: E:\Learning\Remote Sensing and Deep learning\Deep Learning Workshop for Satellite Imagery\wandb\run-20230506_113416-j7sy193d\files\output.log
+2023-05-06 11:36:52,002 INFO    Thread-28 :19688 [dir_watcher.py:_on_file_modified():295] file/dir modified: E:\Learning\Remote Sensing and Deep learning\Deep Learning Workshop for Satellite Imagery\wandb\run-20230506_113416-j7sy193d\files\output.log
+2023-05-06 11:36:54,020 INFO    Thread-28 :19688 [dir_watcher.py:_on_file_modified():295] file/dir modified: E:\Learning\Remote Sensing and Deep learning\Deep Learning Workshop for Satellite Imagery\wandb\run-20230506_113416-j7sy193d\files\output.log
+2023-05-06 11:36:54,889 DEBUG   HandlerThread:19688 [handler.py:handle_request():144] handle_request: status_report
+2023-05-06 11:36:56,034 INFO    Thread-28 :19688 [dir_watcher.py:_on_file_modified():295] file/dir modified: E:\Learning\Remote Sensing and Deep learning\Deep Learning Workshop for Satellite Imagery\wandb\run-20230506_113416-j7sy193d\files\output.log
+2023-05-06 11:36:56,939 DEBUG   SenderThread:19688 [sender.py:send():375] send: stats
+2023-05-06 11:36:57,924 DEBUG   HandlerThread:19688 [handler.py:handle_request():144] handle_request: stop_status
+2023-05-06 11:36:57,925 DEBUG   SenderThread:19688 [sender.py:send_request():402] send_request: stop_status
+2023-05-06 11:36:58,052 INFO    Thread-28 :19688 [dir_watcher.py:_on_file_modified():295] file/dir modified: E:\Learning\Remote Sensing and Deep learning\Deep Learning Workshop for Satellite Imagery\wandb\run-20230506_113416-j7sy193d\files\output.log
+2023-05-06 11:37:00,056 INFO    Thread-28 :19688 [dir_watcher.py:_on_file_modified():295] file/dir modified: E:\Learning\Remote Sensing and Deep learning\Deep Learning Workshop for Satellite Imagery\wandb\run-20230506_113416-j7sy193d\files\output.log
+2023-05-06 11:37:00,390 DEBUG   HandlerThread:19688 [handler.py:handle_request():144] handle_request: status_report
+2023-05-06 11:37:04,077 INFO    Thread-28 :19688 [dir_watcher.py:_on_file_modified():295] file/dir modified: E:\Learning\Remote Sensing and Deep learning\Deep Learning Workshop for Satellite Imagery\wandb\run-20230506_113416-j7sy193d\files\output.log
+2023-05-06 11:37:04,559 DEBUG   HandlerThread:19688 [handler.py:handle_request():144] handle_request: partial_history
+2023-05-06 11:37:04,560 DEBUG   HandlerThread:19688 [handler.py:handle_request():144] handle_request: partial_history
+2023-05-06 11:37:04,561 DEBUG   SenderThread:19688 [sender.py:send():375] send: history
+2023-05-06 11:37:04,561 DEBUG   SenderThread:19688 [sender.py:send_request():402] send_request: summary_record
+2023-05-06 11:37:04,562 INFO    SenderThread:19688 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2023-05-06 11:37:04,562 DEBUG   SenderThread:19688 [sender.py:send_request():402] send_request: summary_record
+2023-05-06 11:37:04,562 INFO    SenderThread:19688 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2023-05-06 11:37:04,563 DEBUG   SenderThread:19688 [sender.py:send_request():402] send_request: summary_record
+2023-05-06 11:37:04,563 INFO    SenderThread:19688 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2023-05-06 11:37:05,078 INFO    Thread-28 :19688 [dir_watcher.py:_on_file_modified():295] file/dir modified: E:\Learning\Remote Sensing and Deep learning\Deep Learning Workshop for Satellite Imagery\wandb\run-20230506_113416-j7sy193d\files\wandb-summary.json
+2023-05-06 11:37:05,079 INFO    Thread-28 :19688 [dir_watcher.py:_on_file_created():278] file/dir created: E:\Learning\Remote Sensing and Deep learning\Deep Learning Workshop for Satellite Imagery\wandb\run-20230506_113416-j7sy193d\files\model-best.h5
+2023-05-06 11:37:05,572 DEBUG   HandlerThread:19688 [handler.py:handle_request():144] handle_request: status_report
+2023-05-06 11:37:08,122 INFO    Thread-28 :19688 [dir_watcher.py:_on_file_modified():295] file/dir modified: E:\Learning\Remote Sensing and Deep learning\Deep Learning Workshop for Satellite Imagery\wandb\run-20230506_113416-j7sy193d\files\output.log
+2023-05-06 11:37:08,122 INFO    Thread-28 :19688 [dir_watcher.py:_on_file_created():278] file/dir created: E:\Learning\Remote Sensing and Deep learning\Deep Learning Workshop for Satellite Imagery\wandb\run-20230506_113416-j7sy193d\files\model-best\variables\variables.index
+2023-05-06 11:37:08,122 INFO    Thread-28 :19688 [dir_watcher.py:_on_file_created():278] file/dir created: E:\Learning\Remote Sensing and Deep learning\Deep Learning Workshop for Satellite Imagery\wandb\run-20230506_113416-j7sy193d\files\model-best\variables\variables.data-00000-of-00001
+2023-05-06 11:37:08,122 INFO    Thread-28 :19688 [dir_watcher.py:_on_file_created():278] file/dir created: E:\Learning\Remote Sensing and Deep learning\Deep Learning Workshop for Satellite Imagery\wandb\run-20230506_113416-j7sy193d\files\model-best
+2023-05-06 11:37:08,123 INFO    Thread-28 :19688 [dir_watcher.py:_on_file_created():278] file/dir created: E:\Learning\Remote Sensing and Deep learning\Deep Learning Workshop for Satellite Imagery\wandb\run-20230506_113416-j7sy193d\files\model-best\assets
+2023-05-06 11:37:08,123 INFO    Thread-28 :19688 [dir_watcher.py:_on_file_created():278] file/dir created: E:\Learning\Remote Sensing and Deep learning\Deep Learning Workshop for Satellite Imagery\wandb\run-20230506_113416-j7sy193d\files\model-best\variables
+2023-05-06 11:37:08,815 DEBUG   HandlerThread:19688 [handler.py:handle_request():144] handle_request: log_artifact
+2023-05-06 11:37:08,815 DEBUG   SenderThread:19688 [sender.py:send_request():402] send_request: log_artifact
+2023-05-06 11:37:10,132 INFO    Thread-28 :19688 [dir_watcher.py:_on_file_modified():295] file/dir modified: E:\Learning\Remote Sensing and Deep learning\Deep Learning Workshop for Satellite Imagery\wandb\run-20230506_113416-j7sy193d\files\output.log
+2023-05-06 11:37:12,017 INFO    wandb-upload_4:19688 [upload_job.py:push():95] Uploaded file C:\Users\awlad\AppData\Local\wandb\wandb\artifacts\staging\tmpfzc8fwt_
+2023-05-06 11:37:12,571 INFO    wandb-upload_1:19688 [upload_job.py:push():95] Uploaded file C:\Users\awlad\AppData\Local\wandb\wandb\artifacts\staging\tmpxrxuoctl
+2023-05-06 11:37:12,925 DEBUG   HandlerThread:19688 [handler.py:handle_request():144] handle_request: stop_status
+2023-05-06 11:37:15,568 INFO    wandb-upload_2:19688 [upload_job.py:push():95] Uploaded file C:\Users\awlad\AppData\Local\wandb\wandb\artifacts\staging\tmp9grb8_rb
+2023-05-06 11:37:17,960 DEBUG   HandlerThread:19688 [handler.py:handle_request():144] handle_request: keepalive
+2023-05-06 11:37:22,980 DEBUG   HandlerThread:19688 [handler.py:handle_request():144] handle_request: keepalive
+2023-05-06 11:37:26,134 DEBUG   HandlerThread:19688 [handler.py:handle_request():144] handle_request: partial_history
+2023-05-06 11:37:26,135 DEBUG   HandlerThread:19688 [handler.py:handle_request():144] handle_request: partial_history
+2023-05-06 11:37:26,205 INFO    Thread-28 :19688 [dir_watcher.py:_on_file_modified():295] file/dir modified: E:\Learning\Remote Sensing and Deep learning\Deep Learning Workshop for Satellite Imagery\wandb\run-20230506_113416-j7sy193d\files\model-best.h5
+2023-05-06 11:37:27,209 INFO    Thread-28 :19688 [dir_watcher.py:_on_file_modified():295] file/dir modified: E:\Learning\Remote Sensing and Deep learning\Deep Learning Workshop for Satellite Imagery\wandb\run-20230506_113416-j7sy193d\files\model-best.h5
+2023-05-06 11:37:28,003 DEBUG   HandlerThread:19688 [handler.py:handle_request():144] handle_request: keepalive
+2023-05-06 11:37:29,216 INFO    Thread-28 :19688 [dir_watcher.py:_on_file_created():278] file/dir created: E:\Learning\Remote Sensing and Deep learning\Deep Learning Workshop for Satellite Imagery\wandb\run-20230506_113416-j7sy193d\files\model-best\variables\variables_temp\part-00000-of-00001.data-00000-of-00001.tempstate15472997232940942779
+2023-05-06 11:37:29,216 INFO    Thread-28 :19688 [dir_watcher.py:_on_file_created():278] file/dir created: E:\Learning\Remote Sensing and Deep learning\Deep Learning Workshop for Satellite Imagery\wandb\run-20230506_113416-j7sy193d\files\model-best\variables
+2023-05-06 11:37:29,216 INFO    Thread-28 :19688 [dir_watcher.py:_on_file_created():278] file/dir created: E:\Learning\Remote Sensing and Deep learning\Deep Learning Workshop for Satellite Imagery\wandb\run-20230506_113416-j7sy193d\files\model-best
+2023-05-06 11:37:29,216 INFO    Thread-28 :19688 [dir_watcher.py:_on_file_created():278] file/dir created: E:\Learning\Remote Sensing and Deep learning\Deep Learning Workshop for Satellite Imagery\wandb\run-20230506_113416-j7sy193d\files\model-best\variables\variables_temp
+2023-05-06 11:37:29,992 DEBUG   HandlerThread:19688 [handler.py:handle_request():144] handle_request: log_artifact
+2023-05-06 11:37:33,046 DEBUG   HandlerThread:19688 [handler.py:handle_request():144] handle_request: keepalive
+2023-05-06 11:37:38,069 DEBUG   HandlerThread:19688 [handler.py:handle_request():144] handle_request: keepalive
+2023-05-06 11:37:43,077 DEBUG   HandlerThread:19688 [handler.py:handle_request():144] handle_request: keepalive
+2023-05-06 11:37:48,103 DEBUG   HandlerThread:19688 [handler.py:handle_request():144] handle_request: keepalive
+2023-05-06 11:37:48,715 DEBUG   HandlerThread:19688 [handler.py:handle_request():144] handle_request: partial_history
+2023-05-06 11:37:48,715 DEBUG   HandlerThread:19688 [handler.py:handle_request():144] handle_request: partial_history
+2023-05-06 11:37:49,309 INFO    Thread-28 :19688 [dir_watcher.py:_on_file_modified():295] file/dir modified: E:\Learning\Remote Sensing and Deep learning\Deep Learning Workshop for Satellite Imagery\wandb\run-20230506_113416-j7sy193d\files\model-best.h5
+2023-05-06 11:37:52,323 INFO    Thread-28 :19688 [dir_watcher.py:_on_file_created():278] file/dir created: E:\Learning\Remote Sensing and Deep learning\Deep Learning Workshop for Satellite Imagery\wandb\run-20230506_113416-j7sy193d\files\model-best\saved_model.pb
+2023-05-06 11:37:52,323 INFO    Thread-28 :19688 [dir_watcher.py:_on_file_created():278] file/dir created: E:\Learning\Remote Sensing and Deep learning\Deep Learning Workshop for Satellite Imagery\wandb\run-20230506_113416-j7sy193d\files\model-best\keras_metadata.pb
+2023-05-06 11:37:52,323 INFO    Thread-28 :19688 [dir_watcher.py:_on_file_created():278] file/dir created: E:\Learning\Remote Sensing and Deep learning\Deep Learning Workshop for Satellite Imagery\wandb\run-20230506_113416-j7sy193d\files\model-best\variables\variables.index
+2023-05-06 11:37:52,323 INFO    Thread-28 :19688 [dir_watcher.py:_on_file_created():278] file/dir created: E:\Learning\Remote Sensing and Deep learning\Deep Learning Workshop for Satellite Imagery\wandb\run-20230506_113416-j7sy193d\files\model-best\variables\variables.data-00000-of-00001
+2023-05-06 11:37:52,323 INFO    Thread-28 :19688 [dir_watcher.py:_on_file_created():278] file/dir created: E:\Learning\Remote Sensing and Deep learning\Deep Learning Workshop for Satellite Imagery\wandb\run-20230506_113416-j7sy193d\files\model-best
+2023-05-06 11:37:52,324 INFO    Thread-28 :19688 [dir_watcher.py:_on_file_created():278] file/dir created: E:\Learning\Remote Sensing and Deep learning\Deep Learning Workshop for Satellite Imagery\wandb\run-20230506_113416-j7sy193d\files\model-best\assets
+2023-05-06 11:37:52,324 INFO    Thread-28 :19688 [dir_watcher.py:_on_file_created():278] file/dir created: E:\Learning\Remote Sensing and Deep learning\Deep Learning Workshop for Satellite Imagery\wandb\run-20230506_113416-j7sy193d\files\model-best\variables
+2023-05-06 11:37:52,348 DEBUG   HandlerThread:19688 [handler.py:handle_request():144] handle_request: log_artifact
+2023-05-06 11:37:53,212 DEBUG   HandlerThread:19688 [handler.py:handle_request():144] handle_request: keepalive
+2023-05-06 11:37:58,251 DEBUG   HandlerThread:19688 [handler.py:handle_request():144] handle_request: keepalive
+2023-05-06 11:38:03,286 DEBUG   HandlerThread:19688 [handler.py:handle_request():144] handle_request: keepalive
+2023-05-06 11:38:08,307 DEBUG   HandlerThread:19688 [handler.py:handle_request():144] handle_request: keepalive
+2023-05-06 11:38:09,649 DEBUG   HandlerThread:19688 [handler.py:handle_request():144] handle_request: partial_history
+2023-05-06 11:38:09,649 DEBUG   HandlerThread:19688 [handler.py:handle_request():144] handle_request: partial_history
+2023-05-06 11:38:10,447 INFO    Thread-28 :19688 [dir_watcher.py:_on_file_modified():295] file/dir modified: E:\Learning\Remote Sensing and Deep learning\Deep Learning Workshop for Satellite Imagery\wandb\run-20230506_113416-j7sy193d\files\model-best.h5
+2023-05-06 11:38:13,335 DEBUG   HandlerThread:19688 [handler.py:handle_request():144] handle_request: keepalive
+2023-05-06 11:38:13,492 INFO    Thread-28 :19688 [dir_watcher.py:_on_file_created():278] file/dir created: E:\Learning\Remote Sensing and Deep learning\Deep Learning Workshop for Satellite Imagery\wandb\run-20230506_113416-j7sy193d\files\model-best\saved_model.pb
+2023-05-06 11:38:13,492 INFO    Thread-28 :19688 [dir_watcher.py:_on_file_created():278] file/dir created: E:\Learning\Remote Sensing and Deep learning\Deep Learning Workshop for Satellite Imagery\wandb\run-20230506_113416-j7sy193d\files\model-best\keras_metadata.pb
+2023-05-06 11:38:13,492 INFO    Thread-28 :19688 [dir_watcher.py:_on_file_created():278] file/dir created: E:\Learning\Remote Sensing and Deep learning\Deep Learning Workshop for Satellite Imagery\wandb\run-20230506_113416-j7sy193d\files\model-best\variables\variables.index
+2023-05-06 11:38:13,492 INFO    Thread-28 :19688 [dir_watcher.py:_on_file_created():278] file/dir created: E:\Learning\Remote Sensing and Deep learning\Deep Learning Workshop for Satellite Imagery\wandb\run-20230506_113416-j7sy193d\files\model-best\variables\variables.data-00000-of-00001
+2023-05-06 11:38:13,492 INFO    Thread-28 :19688 [dir_watcher.py:_on_file_created():278] file/dir created: E:\Learning\Remote Sensing and Deep learning\Deep Learning Workshop for Satellite Imagery\wandb\run-20230506_113416-j7sy193d\files\model-best
+2023-05-06 11:38:13,493 INFO    Thread-28 :19688 [dir_watcher.py:_on_file_created():278] file/dir created: E:\Learning\Remote Sensing and Deep learning\Deep Learning Workshop for Satellite Imagery\wandb\run-20230506_113416-j7sy193d\files\model-best\assets
+2023-05-06 11:38:13,493 INFO    Thread-28 :19688 [dir_watcher.py:_on_file_created():278] file/dir created: E:\Learning\Remote Sensing and Deep learning\Deep Learning Workshop for Satellite Imagery\wandb\run-20230506_113416-j7sy193d\files\model-best\variables
+2023-05-06 11:38:13,660 DEBUG   HandlerThread:19688 [handler.py:handle_request():144] handle_request: log_artifact
+2023-05-06 11:38:13,792 INFO    wandb-upload_0:19688 [upload_job.py:push():137] Uploaded file C:\Users\awlad\AppData\Local\Temp\tmpy0xt01b5wandb\j4vcjb1d-model-best.h5
+2023-05-06 11:38:18,350 DEBUG   HandlerThread:19688 [handler.py:handle_request():144] handle_request: keepalive
+2023-05-06 11:38:19,735 INFO    wandb-upload_3:19688 [upload_job.py:push():95] Uploaded file C:\Users\awlad\AppData\Local\wandb\wandb\artifacts\staging\tmp9k7oj96q
+2023-05-06 11:38:21,003 INFO    SenderThread:19688 [sender.py:send_request_log_artifact():1438] logged artifact model-vital-waterfall-2 - {'id': 'QXJ0aWZhY3Q6NDQ0MDAwNzcz', 'digest': 'e2bbe370b4aa38ea5dc5b0206e2ee668', 'state': 'PENDING', 'aliases': [], 'artifactSequence': {'id': 'QXJ0aWZhY3RDb2xsZWN0aW9uOjY2OTkzNDQ5', 'latestArtifact': None}, 'version': 'latest'}
+2023-05-06 11:38:21,003 DEBUG   SenderThread:19688 [sender.py:send_request():402] send_request: stop_status
+2023-05-06 11:38:21,003 DEBUG   HandlerThread:19688 [handler.py:handle_request():144] handle_request: status_report
+2023-05-06 11:38:21,306 DEBUG   SenderThread:19688 [sender.py:send():375] send: history
+2023-05-06 11:38:21,306 DEBUG   SenderThread:19688 [sender.py:send_request():402] send_request: summary_record
+2023-05-06 11:38:21,307 INFO    SenderThread:19688 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2023-05-06 11:38:21,308 DEBUG   SenderThread:19688 [sender.py:send_request():402] send_request: summary_record
+2023-05-06 11:38:21,308 INFO    SenderThread:19688 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2023-05-06 11:38:21,308 DEBUG   SenderThread:19688 [sender.py:send_request():402] send_request: summary_record
+2023-05-06 11:38:21,309 INFO    SenderThread:19688 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2023-05-06 11:38:21,309 DEBUG   SenderThread:19688 [sender.py:send():375] send: stats
+2023-05-06 11:38:21,309 DEBUG   SenderThread:19688 [sender.py:send_request():402] send_request: log_artifact
+2023-05-06 11:38:21,534 INFO    Thread-28 :19688 [dir_watcher.py:_on_file_modified():295] file/dir modified: E:\Learning\Remote Sensing and Deep learning\Deep Learning Workshop for Satellite Imagery\wandb\run-20230506_113416-j7sy193d\files\wandb-summary.json
+2023-05-06 11:38:22,538 INFO    Thread-28 :19688 [dir_watcher.py:_on_file_modified():295] file/dir modified: E:\Learning\Remote Sensing and Deep learning\Deep Learning Workshop for Satellite Imagery\wandb\run-20230506_113416-j7sy193d\files\output.log
+2023-05-06 11:38:22,858 INFO    wandb-upload_4:19688 [upload_job.py:push():92] Skipped uploading C:\Users\awlad\AppData\Local\wandb\wandb\artifacts\staging\tmpkk0922gl
+2023-05-06 11:38:23,368 DEBUG   HandlerThread:19688 [handler.py:handle_request():144] handle_request: keepalive
+2023-05-06 11:38:23,450 INFO    wandb-upload_0:19688 [upload_job.py:push():95] Uploaded file C:\Users\awlad\AppData\Local\wandb\wandb\artifacts\staging\tmpfe3m8ibq
+2023-05-06 11:38:23,545 INFO    Thread-28 :19688 [dir_watcher.py:_on_file_modified():295] file/dir modified: E:\Learning\Remote Sensing and Deep learning\Deep Learning Workshop for Satellite Imagery\wandb\run-20230506_113416-j7sy193d\files\output.log
+2023-05-06 11:38:26,567 INFO    wandb-upload_1:19688 [upload_job.py:push():95] Uploaded file C:\Users\awlad\AppData\Local\wandb\wandb\artifacts\staging\tmpzsp63pfq
+2023-05-06 11:38:28,390 DEBUG   HandlerThread:19688 [handler.py:handle_request():144] handle_request: keepalive
+2023-05-06 11:38:30,210 DEBUG   HandlerThread:19688 [handler.py:handle_request():144] handle_request: partial_history
+2023-05-06 11:38:30,210 DEBUG   HandlerThread:19688 [handler.py:handle_request():144] handle_request: partial_history
+2023-05-06 11:38:30,587 INFO    Thread-28 :19688 [dir_watcher.py:_on_file_modified():295] file/dir modified: E:\Learning\Remote Sensing and Deep learning\Deep Learning Workshop for Satellite Imagery\wandb\run-20230506_113416-j7sy193d\files\model-best.h5
+2023-05-06 11:38:33,422 DEBUG   HandlerThread:19688 [handler.py:handle_request():144] handle_request: keepalive
+2023-05-06 11:38:33,595 INFO    Thread-28 :19688 [dir_watcher.py:_on_file_created():278] file/dir created: E:\Learning\Remote Sensing and Deep learning\Deep Learning Workshop for Satellite Imagery\wandb\run-20230506_113416-j7sy193d\files\model-best\saved_model.pb
+2023-05-06 11:38:33,596 INFO    Thread-28 :19688 [dir_watcher.py:_on_file_created():278] file/dir created: E:\Learning\Remote Sensing and Deep learning\Deep Learning Workshop for Satellite Imagery\wandb\run-20230506_113416-j7sy193d\files\model-best\variables\variables.index
+2023-05-06 11:38:33,596 INFO    Thread-28 :19688 [dir_watcher.py:_on_file_created():278] file/dir created: E:\Learning\Remote Sensing and Deep learning\Deep Learning Workshop for Satellite Imagery\wandb\run-20230506_113416-j7sy193d\files\model-best\variables\variables.data-00000-of-00001
+2023-05-06 11:38:33,596 INFO    Thread-28 :19688 [dir_watcher.py:_on_file_created():278] file/dir created: E:\Learning\Remote Sensing and Deep learning\Deep Learning Workshop for Satellite Imagery\wandb\run-20230506_113416-j7sy193d\files\model-best
+2023-05-06 11:38:33,596 INFO    Thread-28 :19688 [dir_watcher.py:_on_file_created():278] file/dir created: E:\Learning\Remote Sensing and Deep learning\Deep Learning Workshop for Satellite Imagery\wandb\run-20230506_113416-j7sy193d\files\model-best\assets
+2023-05-06 11:38:33,596 INFO    Thread-28 :19688 [dir_watcher.py:_on_file_created():278] file/dir created: E:\Learning\Remote Sensing and Deep learning\Deep Learning Workshop for Satellite Imagery\wandb\run-20230506_113416-j7sy193d\files\model-best\variables
+2023-05-06 11:38:34,226 DEBUG   HandlerThread:19688 [handler.py:handle_request():144] handle_request: log_artifact
+2023-05-06 11:38:38,458 DEBUG   HandlerThread:19688 [handler.py:handle_request():144] handle_request: keepalive
+2023-05-06 11:38:43,479 DEBUG   HandlerThread:19688 [handler.py:handle_request():144] handle_request: keepalive
+2023-05-06 11:38:48,490 DEBUG   HandlerThread:19688 [handler.py:handle_request():144] handle_request: keepalive
+2023-05-06 11:38:50,218 DEBUG   HandlerThread:19688 [handler.py:handle_request():144] handle_request: partial_history
+2023-05-06 11:38:50,219 DEBUG   HandlerThread:19688 [handler.py:handle_request():144] handle_request: partial_history
+2023-05-06 11:38:53,503 DEBUG   HandlerThread:19688 [handler.py:handle_request():144] handle_request: keepalive
+2023-05-06 11:38:58,519 DEBUG   HandlerThread:19688 [handler.py:handle_request():144] handle_request: keepalive
+2023-05-06 11:39:00,953 INFO    wandb-upload_2:19688 [upload_job.py:push():95] Uploaded file C:\Users\awlad\AppData\Local\wandb\wandb\artifacts\staging\tmpuss3e1ru
+2023-05-06 11:39:02,451 INFO    SenderThread:19688 [sender.py:send_request_log_artifact():1438] logged artifact model-vital-waterfall-2 - {'id': 'QXJ0aWZhY3Q6NDQ0MDAxODg4', 'digest': 'b67534309d9887b6b1595f3f1e7fe2bd', 'state': 'PENDING', 'aliases': [], 'artifactSequence': {'id': 'QXJ0aWZhY3RDb2xsZWN0aW9uOjY2OTkzNDQ5', 'latestArtifact': {'id': 'QXJ0aWZhY3Q6NDQ0MDAwNzcz', 'versionIndex': 0}}, 'version': 'latest'}
+2023-05-06 11:39:02,452 DEBUG   SenderThread:19688 [sender.py:send():375] send: history
+2023-05-06 11:39:02,452 DEBUG   HandlerThread:19688 [handler.py:handle_request():144] handle_request: status_report
+2023-05-06 11:39:02,452 DEBUG   SenderThread:19688 [sender.py:send_request():402] send_request: summary_record
+2023-05-06 11:39:02,454 INFO    SenderThread:19688 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2023-05-06 11:39:02,454 DEBUG   SenderThread:19688 [sender.py:send_request():402] send_request: summary_record
+2023-05-06 11:39:02,454 INFO    SenderThread:19688 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2023-05-06 11:39:02,454 DEBUG   SenderThread:19688 [sender.py:send_request():402] send_request: summary_record
+2023-05-06 11:39:02,455 INFO    SenderThread:19688 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2023-05-06 11:39:02,455 DEBUG   SenderThread:19688 [sender.py:send_request():402] send_request: log_artifact
+2023-05-06 11:39:02,735 INFO    Thread-28 :19688 [dir_watcher.py:_on_file_modified():295] file/dir modified: E:\Learning\Remote Sensing and Deep learning\Deep Learning Workshop for Satellite Imagery\wandb\run-20230506_113416-j7sy193d\files\wandb-summary.json
+2023-05-06 11:39:03,564 DEBUG   HandlerThread:19688 [handler.py:handle_request():144] handle_request: keepalive
+2023-05-06 11:39:03,737 INFO    Thread-28 :19688 [dir_watcher.py:_on_file_modified():295] file/dir modified: E:\Learning\Remote Sensing and Deep learning\Deep Learning Workshop for Satellite Imagery\wandb\run-20230506_113416-j7sy193d\files\output.log
+2023-05-06 11:39:04,241 INFO    wandb-upload_3:19688 [upload_job.py:push():92] Skipped uploading C:\Users\awlad\AppData\Local\wandb\wandb\artifacts\staging\tmpp_1nf8sg
+2023-05-06 11:39:04,740 INFO    Thread-28 :19688 [dir_watcher.py:_on_file_modified():295] file/dir modified: E:\Learning\Remote Sensing and Deep learning\Deep Learning Workshop for Satellite Imagery\wandb\run-20230506_113416-j7sy193d\files\output.log
+2023-05-06 11:39:04,829 INFO    wandb-upload_1:19688 [upload_job.py:push():95] Uploaded file C:\Users\awlad\AppData\Local\wandb\wandb\artifacts\staging\tmpiuun_cij
+2023-05-06 11:39:05,399 DEBUG   HandlerThread:19688 [handler.py:handle_request():144] handle_request: partial_history
+2023-05-06 11:39:05,400 DEBUG   HandlerThread:19688 [handler.py:handle_request():144] handle_request: partial_history
+2023-05-06 11:39:07,402 INFO    wandb-upload_4:19688 [upload_job.py:push():95] Uploaded file C:\Users\awlad\AppData\Local\wandb\wandb\artifacts\staging\tmpeclcjm0o
+2023-05-06 11:39:08,574 DEBUG   HandlerThread:19688 [handler.py:handle_request():144] handle_request: keepalive
+2023-05-06 11:39:13,585 DEBUG   HandlerThread:19688 [handler.py:handle_request():144] handle_request: keepalive
+2023-05-06 11:39:18,604 DEBUG   HandlerThread:19688 [handler.py:handle_request():144] handle_request: keepalive
+2023-05-06 11:39:22,705 DEBUG   HandlerThread:19688 [handler.py:handle_request():144] handle_request: partial_history
+2023-05-06 11:39:22,705 DEBUG   HandlerThread:19688 [handler.py:handle_request():144] handle_request: partial_history
+2023-05-06 11:39:22,879 INFO    Thread-28 :19688 [dir_watcher.py:_on_file_modified():295] file/dir modified: E:\Learning\Remote Sensing and Deep learning\Deep Learning Workshop for Satellite Imagery\wandb\run-20230506_113416-j7sy193d\files\model-best.h5
+2023-05-06 11:39:23,642 DEBUG   HandlerThread:19688 [handler.py:handle_request():144] handle_request: keepalive
+2023-05-06 11:39:25,898 INFO    Thread-28 :19688 [dir_watcher.py:_on_file_created():278] file/dir created: E:\Learning\Remote Sensing and Deep learning\Deep Learning Workshop for Satellite Imagery\wandb\run-20230506_113416-j7sy193d\files\model-best\saved_model.pb
+2023-05-06 11:39:25,898 INFO    Thread-28 :19688 [dir_watcher.py:_on_file_created():278] file/dir created: E:\Learning\Remote Sensing and Deep learning\Deep Learning Workshop for Satellite Imagery\wandb\run-20230506_113416-j7sy193d\files\model-best\keras_metadata.pb
+2023-05-06 11:39:25,898 INFO    Thread-28 :19688 [dir_watcher.py:_on_file_created():278] file/dir created: E:\Learning\Remote Sensing and Deep learning\Deep Learning Workshop for Satellite Imagery\wandb\run-20230506_113416-j7sy193d\files\model-best\variables\variables.index
+2023-05-06 11:39:25,898 INFO    Thread-28 :19688 [dir_watcher.py:_on_file_created():278] file/dir created: E:\Learning\Remote Sensing and Deep learning\Deep Learning Workshop for Satellite Imagery\wandb\run-20230506_113416-j7sy193d\files\model-best\variables\variables.data-00000-of-00001
+2023-05-06 11:39:25,899 INFO    Thread-28 :19688 [dir_watcher.py:_on_file_created():278] file/dir created: E:\Learning\Remote Sensing and Deep learning\Deep Learning Workshop for Satellite Imagery\wandb\run-20230506_113416-j7sy193d\files\model-best
+2023-05-06 11:39:25,899 INFO    Thread-28 :19688 [dir_watcher.py:_on_file_created():278] file/dir created: E:\Learning\Remote Sensing and Deep learning\Deep Learning Workshop for Satellite Imagery\wandb\run-20230506_113416-j7sy193d\files\model-best\assets
+2023-05-06 11:39:25,899 INFO    Thread-28 :19688 [dir_watcher.py:_on_file_created():278] file/dir created: E:\Learning\Remote Sensing and Deep learning\Deep Learning Workshop for Satellite Imagery\wandb\run-20230506_113416-j7sy193d\files\model-best\variables
+2023-05-06 11:39:26,310 DEBUG   HandlerThread:19688 [handler.py:handle_request():144] handle_request: log_artifact
+2023-05-06 11:39:28,681 DEBUG   HandlerThread:19688 [handler.py:handle_request():144] handle_request: keepalive
+2023-05-06 11:39:33,689 DEBUG   HandlerThread:19688 [handler.py:handle_request():144] handle_request: keepalive
+2023-05-06 11:39:38,707 DEBUG   HandlerThread:19688 [handler.py:handle_request():144] handle_request: keepalive
+2023-05-06 11:39:42,052 INFO    wandb-upload_0:19688 [upload_job.py:push():95] Uploaded file C:\Users\awlad\AppData\Local\wandb\wandb\artifacts\staging\tmp8rga0ayi
+2023-05-06 11:39:42,796 DEBUG   HandlerThread:19688 [handler.py:handle_request():144] handle_request: partial_history
+2023-05-06 11:39:42,796 DEBUG   HandlerThread:19688 [handler.py:handle_request():144] handle_request: partial_history
+2023-05-06 11:39:43,486 INFO    SenderThread:19688 [sender.py:send_request_log_artifact():1438] logged artifact model-vital-waterfall-2 - {'id': 'QXJ0aWZhY3Q6NDQ0MDAyNDgx', 'digest': 'a4bee95c5dd9b981c0c7656036e4b6be', 'state': 'PENDING', 'aliases': [], 'artifactSequence': {'id': 'QXJ0aWZhY3RDb2xsZWN0aW9uOjY2OTkzNDQ5', 'latestArtifact': {'id': 'QXJ0aWZhY3Q6NDQ0MDAxODg4', 'versionIndex': 1}}, 'version': 'latest'}
+2023-05-06 11:39:43,487 DEBUG   SenderThread:19688 [sender.py:send():375] send: stats
+2023-05-06 11:39:43,487 DEBUG   HandlerThread:19688 [handler.py:handle_request():144] handle_request: status_report
+2023-05-06 11:39:43,488 DEBUG   SenderThread:19688 [sender.py:send():375] send: history
+2023-05-06 11:39:43,488 DEBUG   SenderThread:19688 [sender.py:send_request():402] send_request: summary_record
+2023-05-06 11:39:43,488 INFO    SenderThread:19688 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2023-05-06 11:39:43,489 DEBUG   SenderThread:19688 [sender.py:send_request():402] send_request: summary_record
+2023-05-06 11:39:43,489 INFO    SenderThread:19688 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2023-05-06 11:39:43,489 DEBUG   SenderThread:19688 [sender.py:send_request():402] send_request: summary_record
+2023-05-06 11:39:43,489 INFO    SenderThread:19688 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2023-05-06 11:39:43,490 DEBUG   SenderThread:19688 [sender.py:send_request():402] send_request: log_artifact
+2023-05-06 11:39:43,730 DEBUG   HandlerThread:19688 [handler.py:handle_request():144] handle_request: keepalive
+2023-05-06 11:39:44,015 INFO    Thread-28 :19688 [dir_watcher.py:_on_file_modified():295] file/dir modified: E:\Learning\Remote Sensing and Deep learning\Deep Learning Workshop for Satellite Imagery\wandb\run-20230506_113416-j7sy193d\files\output.log
+2023-05-06 11:39:44,016 INFO    Thread-28 :19688 [dir_watcher.py:_on_file_modified():295] file/dir modified: E:\Learning\Remote Sensing and Deep learning\Deep Learning Workshop for Satellite Imagery\wandb\run-20230506_113416-j7sy193d\files\wandb-summary.json
+2023-05-06 11:39:44,970 INFO    wandb-upload_2:19688 [upload_job.py:push():92] Skipped uploading C:\Users\awlad\AppData\Local\wandb\wandb\artifacts\staging\tmprdzzqpa4
+2023-05-06 11:39:45,019 INFO    Thread-28 :19688 [dir_watcher.py:_on_file_modified():295] file/dir modified: E:\Learning\Remote Sensing and Deep learning\Deep Learning Workshop for Satellite Imagery\wandb\run-20230506_113416-j7sy193d\files\output.log
+2023-05-06 11:39:45,537 INFO    wandb-upload_4:19688 [upload_job.py:push():95] Uploaded file C:\Users\awlad\AppData\Local\wandb\wandb\artifacts\staging\tmp446outc9
+2023-05-06 11:39:47,446 INFO    wandb-upload_3:19688 [upload_job.py:push():95] Uploaded file C:\Users\awlad\AppData\Local\wandb\wandb\artifacts\staging\tmpkx6_rrk9
+2023-05-06 11:39:48,737 DEBUG   HandlerThread:19688 [handler.py:handle_request():144] handle_request: keepalive
+2023-05-06 11:39:53,762 DEBUG   HandlerThread:19688 [handler.py:handle_request():144] handle_request: keepalive
+2023-05-06 11:39:58,775 DEBUG   HandlerThread:19688 [handler.py:handle_request():144] handle_request: keepalive
+2023-05-06 11:39:59,863 DEBUG   HandlerThread:19688 [handler.py:handle_request():144] handle_request: partial_history
+2023-05-06 11:39:59,863 DEBUG   HandlerThread:19688 [handler.py:handle_request():144] handle_request: partial_history
+2023-05-06 11:40:03,811 DEBUG   HandlerThread:19688 [handler.py:handle_request():144] handle_request: keepalive
+2023-05-06 11:40:08,857 DEBUG   HandlerThread:19688 [handler.py:handle_request():144] handle_request: keepalive
+2023-05-06 11:40:13,903 DEBUG   HandlerThread:19688 [handler.py:handle_request():144] handle_request: keepalive
+2023-05-06 11:40:18,944 DEBUG   HandlerThread:19688 [handler.py:handle_request():144] handle_request: keepalive
+2023-05-06 11:40:22,791 INFO    wandb-upload_1:19688 [upload_job.py:push():95] Uploaded file C:\Users\awlad\AppData\Local\wandb\wandb\artifacts\staging\tmpp1udvq9o
+2023-05-06 11:40:24,003 DEBUG   HandlerThread:19688 [handler.py:handle_request():144] handle_request: keepalive
+2023-05-06 11:40:24,126 INFO    SenderThread:19688 [sender.py:send_request_log_artifact():1438] logged artifact model-vital-waterfall-2 - {'id': 'QXJ0aWZhY3Q6NDQ0MDAzMTA1', 'digest': 'aa1b777bcb7f6fac061fa73807608788', 'state': 'PENDING', 'aliases': [], 'artifactSequence': {'id': 'QXJ0aWZhY3RDb2xsZWN0aW9uOjY2OTkzNDQ5', 'latestArtifact': {'id': 'QXJ0aWZhY3Q6NDQ0MDAyNDgx', 'versionIndex': 2}}, 'version': 'latest'}
+2023-05-06 11:40:24,128 DEBUG   SenderThread:19688 [sender.py:send():375] send: stats
+2023-05-06 11:40:24,128 DEBUG   HandlerThread:19688 [handler.py:handle_request():144] handle_request: status_report
+2023-05-06 11:40:24,128 DEBUG   SenderThread:19688 [sender.py:send():375] send: history
+2023-05-06 11:40:24,129 DEBUG   SenderThread:19688 [sender.py:send_request():402] send_request: summary_record
+2023-05-06 11:40:24,130 INFO    SenderThread:19688 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2023-05-06 11:40:24,130 DEBUG   SenderThread:19688 [sender.py:send_request():402] send_request: summary_record
+2023-05-06 11:40:24,130 INFO    SenderThread:19688 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2023-05-06 11:40:24,130 DEBUG   SenderThread:19688 [sender.py:send_request():402] send_request: summary_record
+2023-05-06 11:40:24,131 INFO    SenderThread:19688 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2023-05-06 11:40:24,131 DEBUG   SenderThread:19688 [sender.py:send_request():402] send_request: log_artifact
+2023-05-06 11:40:24,347 INFO    Thread-28 :19688 [dir_watcher.py:_on_file_modified():295] file/dir modified: E:\Learning\Remote Sensing and Deep learning\Deep Learning Workshop for Satellite Imagery\wandb\run-20230506_113416-j7sy193d\files\wandb-summary.json
+2023-05-06 11:40:25,361 INFO    Thread-28 :19688 [dir_watcher.py:_on_file_modified():295] file/dir modified: E:\Learning\Remote Sensing and Deep learning\Deep Learning Workshop for Satellite Imagery\wandb\run-20230506_113416-j7sy193d\files\output.log
+2023-05-06 11:40:25,619 INFO    wandb-upload_0:19688 [upload_job.py:push():92] Skipped uploading C:\Users\awlad\AppData\Local\wandb\wandb\artifacts\staging\tmp39206pts
+2023-05-06 11:40:26,183 INFO    wandb-upload_3:19688 [upload_job.py:push():95] Uploaded file C:\Users\awlad\AppData\Local\wandb\wandb\artifacts\staging\tmp0u6ojfrn
+2023-05-06 11:40:26,374 INFO    Thread-28 :19688 [dir_watcher.py:_on_file_modified():295] file/dir modified: E:\Learning\Remote Sensing and Deep learning\Deep Learning Workshop for Satellite Imagery\wandb\run-20230506_113416-j7sy193d\files\output.log
+2023-05-06 11:40:28,704 INFO    wandb-upload_2:19688 [upload_job.py:push():95] Uploaded file C:\Users\awlad\AppData\Local\wandb\wandb\artifacts\staging\tmp8vby48pq
+2023-05-06 11:40:29,016 DEBUG   HandlerThread:19688 [handler.py:handle_request():144] handle_request: keepalive
+2023-05-06 11:40:34,068 DEBUG   HandlerThread:19688 [handler.py:handle_request():144] handle_request: keepalive
+2023-05-06 11:40:39,131 DEBUG   HandlerThread:19688 [handler.py:handle_request():144] handle_request: keepalive
+2023-05-06 11:40:44,165 DEBUG   HandlerThread:19688 [handler.py:handle_request():144] handle_request: keepalive
+2023-05-06 11:40:49,190 DEBUG   HandlerThread:19688 [handler.py:handle_request():144] handle_request: keepalive
+2023-05-06 11:40:54,228 DEBUG   HandlerThread:19688 [handler.py:handle_request():144] handle_request: keepalive
+2023-05-06 11:40:59,288 DEBUG   HandlerThread:19688 [handler.py:handle_request():144] handle_request: keepalive
+2023-05-06 11:41:03,366 INFO    wandb-upload_4:19688 [upload_job.py:push():95] Uploaded file C:\Users\awlad\AppData\Local\wandb\wandb\artifacts\staging\tmpq7juo3wn
+2023-05-06 11:41:04,345 DEBUG   HandlerThread:19688 [handler.py:handle_request():144] handle_request: keepalive
+2023-05-06 11:41:04,760 INFO    SenderThread:19688 [sender.py:send_request_log_artifact():1438] logged artifact model-vital-waterfall-2 - {'id': 'QXJ0aWZhY3Q6NDQ0MDAzNjY5', 'digest': 'b09346f079e29e487f72ce43d05863ae', 'state': 'PENDING', 'aliases': [], 'artifactSequence': {'id': 'QXJ0aWZhY3RDb2xsZWN0aW9uOjY2OTkzNDQ5', 'latestArtifact': {'id': 'QXJ0aWZhY3Q6NDQ0MDAzMTA1', 'versionIndex': 3}}, 'version': 'latest'}
+2023-05-06 11:41:04,761 DEBUG   SenderThread:19688 [sender.py:send():375] send: history
+2023-05-06 11:41:04,761 DEBUG   HandlerThread:19688 [handler.py:handle_request():144] handle_request: status_report
+2023-05-06 11:41:04,761 DEBUG   SenderThread:19688 [sender.py:send_request():402] send_request: summary_record
+2023-05-06 11:41:04,762 INFO    SenderThread:19688 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2023-05-06 11:41:04,762 DEBUG   SenderThread:19688 [sender.py:send():375] send: stats
+2023-05-06 11:41:04,763 DEBUG   SenderThread:19688 [sender.py:send():375] send: history
+2023-05-06 11:41:04,763 DEBUG   SenderThread:19688 [sender.py:send_request():402] send_request: summary_record
+2023-05-06 11:41:04,764 INFO    SenderThread:19688 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2023-05-06 11:41:04,765 DEBUG   SenderThread:19688 [sender.py:send():375] send: history
+2023-05-06 11:41:04,765 DEBUG   SenderThread:19688 [sender.py:send_request():402] send_request: summary_record
+2023-05-06 11:41:04,765 INFO    SenderThread:19688 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2023-05-06 11:41:04,765 DEBUG   SenderThread:19688 [sender.py:send_request():402] send_request: summary_record
+2023-05-06 11:41:04,765 INFO    SenderThread:19688 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2023-05-06 11:41:04,766 DEBUG   SenderThread:19688 [sender.py:send_request():402] send_request: summary_record
+2023-05-06 11:41:04,766 INFO    SenderThread:19688 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2023-05-06 11:41:04,766 DEBUG   SenderThread:19688 [sender.py:send_request():402] send_request: log_artifact
+2023-05-06 11:41:05,750 INFO    Thread-28 :19688 [dir_watcher.py:_on_file_modified():295] file/dir modified: E:\Learning\Remote Sensing and Deep learning\Deep Learning Workshop for Satellite Imagery\wandb\run-20230506_113416-j7sy193d\files\wandb-summary.json
+2023-05-06 11:41:06,238 INFO    wandb-upload_1:19688 [upload_job.py:push():92] Skipped uploading C:\Users\awlad\AppData\Local\wandb\wandb\artifacts\staging\tmpsb749gdw
+2023-05-06 11:41:06,755 INFO    Thread-28 :19688 [dir_watcher.py:_on_file_modified():295] file/dir modified: E:\Learning\Remote Sensing and Deep learning\Deep Learning Workshop for Satellite Imagery\wandb\run-20230506_113416-j7sy193d\files\output.log
+2023-05-06 11:41:06,794 INFO    wandb-upload_2:19688 [upload_job.py:push():95] Uploaded file C:\Users\awlad\AppData\Local\wandb\wandb\artifacts\staging\tmp3pwqmgo_
+2023-05-06 11:41:07,758 INFO    Thread-28 :19688 [dir_watcher.py:_on_file_modified():295] file/dir modified: E:\Learning\Remote Sensing and Deep learning\Deep Learning Workshop for Satellite Imagery\wandb\run-20230506_113416-j7sy193d\files\output.log
+2023-05-06 11:41:09,397 DEBUG   HandlerThread:19688 [handler.py:handle_request():144] handle_request: keepalive
+2023-05-06 11:41:09,978 INFO    wandb-upload_0:19688 [upload_job.py:push():95] Uploaded file C:\Users\awlad\AppData\Local\wandb\wandb\artifacts\staging\tmpyz5_led9
+2023-05-06 11:41:14,452 DEBUG   HandlerThread:19688 [handler.py:handle_request():144] handle_request: keepalive
+2023-05-06 11:41:19,510 DEBUG   HandlerThread:19688 [handler.py:handle_request():144] handle_request: keepalive
+2023-05-06 11:41:24,560 DEBUG   HandlerThread:19688 [handler.py:handle_request():144] handle_request: keepalive
+2023-05-06 11:41:29,620 DEBUG   HandlerThread:19688 [handler.py:handle_request():144] handle_request: keepalive
+2023-05-06 11:41:34,670 DEBUG   HandlerThread:19688 [handler.py:handle_request():144] handle_request: keepalive
+2023-05-06 11:41:39,729 DEBUG   HandlerThread:19688 [handler.py:handle_request():144] handle_request: keepalive
+2023-05-06 11:41:44,110 INFO    wandb-upload_3:19688 [upload_job.py:push():95] Uploaded file C:\Users\awlad\AppData\Local\wandb\wandb\artifacts\staging\tmp7n3ndpu4
+2023-05-06 11:41:44,790 DEBUG   HandlerThread:19688 [handler.py:handle_request():144] handle_request: keepalive
+2023-05-06 11:41:45,648 INFO    SenderThread:19688 [sender.py:send_request_log_artifact():1438] logged artifact model-vital-waterfall-2 - {'id': 'QXJ0aWZhY3Q6NDQ0MDA0MjU5', 'digest': '1eed86ea64c22176715051898dd68ec7', 'state': 'PENDING', 'aliases': [], 'artifactSequence': {'id': 'QXJ0aWZhY3RDb2xsZWN0aW9uOjY2OTkzNDQ5', 'latestArtifact': {'id': 'QXJ0aWZhY3Q6NDQ0MDAzNjY5', 'versionIndex': 4}}, 'version': 'latest'}
+2023-05-06 11:41:45,648 DEBUG   SenderThread:19688 [sender.py:send():375] send: stats
+2023-05-06 11:41:45,648 DEBUG   HandlerThread:19688 [handler.py:handle_request():144] handle_request: status_report
+2023-05-06 11:41:45,649 DEBUG   SenderThread:19688 [sender.py:send():375] send: history
+2023-05-06 11:41:45,650 DEBUG   SenderThread:19688 [sender.py:send_request():402] send_request: summary_record
+2023-05-06 11:41:45,650 INFO    SenderThread:19688 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2023-05-06 11:41:45,651 DEBUG   SenderThread:19688 [sender.py:send():375] send: stats
+2023-05-06 11:41:45,651 DEBUG   SenderThread:19688 [sender.py:send():375] send: history
+2023-05-06 11:41:45,651 DEBUG   SenderThread:19688 [sender.py:send_request():402] send_request: summary_record
+2023-05-06 11:41:45,652 INFO    SenderThread:19688 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2023-05-06 11:41:45,652 DEBUG   SenderThread:19688 [sender.py:send():375] send: stats
+2023-05-06 11:41:45,652 DEBUG   SenderThread:19688 [sender.py:send():375] send: stats
+2023-05-06 11:41:45,652 DEBUG   SenderThread:19688 [sender.py:send():375] send: stats
+2023-05-06 11:41:46,132 INFO    Thread-28 :19688 [dir_watcher.py:_on_file_modified():295] file/dir modified: E:\Learning\Remote Sensing and Deep learning\Deep Learning Workshop for Satellite Imagery\wandb\run-20230506_113416-j7sy193d\files\wandb-summary.json
+2023-05-06 11:41:47,143 INFO    Thread-28 :19688 [dir_watcher.py:_on_file_modified():295] file/dir modified: E:\Learning\Remote Sensing and Deep learning\Deep Learning Workshop for Satellite Imagery\wandb\run-20230506_113416-j7sy193d\files\output.log
+2023-05-06 11:41:49,830 DEBUG   HandlerThread:19688 [handler.py:handle_request():144] handle_request: keepalive
+2023-05-06 11:41:50,702 DEBUG   HandlerThread:19688 [handler.py:handle_request():144] handle_request: status_report
+2023-05-06 11:41:54,885 DEBUG   HandlerThread:19688 [handler.py:handle_request():144] handle_request: keepalive
+2023-05-06 11:41:55,759 DEBUG   HandlerThread:19688 [handler.py:handle_request():144] handle_request: status_report
+2023-05-06 11:41:57,009 DEBUG   SenderThread:19688 [sender.py:send():375] send: stats
+2023-05-06 11:41:59,936 DEBUG   HandlerThread:19688 [handler.py:handle_request():144] handle_request: keepalive
+2023-05-06 11:42:01,041 DEBUG   HandlerThread:19688 [handler.py:handle_request():144] handle_request: status_report
+2023-05-06 11:42:04,995 DEBUG   HandlerThread:19688 [handler.py:handle_request():144] handle_request: keepalive
+2023-05-06 11:42:06,103 DEBUG   HandlerThread:19688 [handler.py:handle_request():144] handle_request: status_report
+2023-05-06 11:42:10,056 DEBUG   HandlerThread:19688 [handler.py:handle_request():144] handle_request: keepalive
+2023-05-06 11:42:11,162 DEBUG   HandlerThread:19688 [handler.py:handle_request():144] handle_request: status_report
+2023-05-06 11:42:15,102 DEBUG   HandlerThread:19688 [handler.py:handle_request():144] handle_request: keepalive
+2023-05-06 11:42:16,223 DEBUG   HandlerThread:19688 [handler.py:handle_request():144] handle_request: status_report
+2023-05-06 11:42:20,150 DEBUG   HandlerThread:19688 [handler.py:handle_request():144] handle_request: keepalive
+2023-05-06 11:42:20,487 DEBUG   HandlerThread:19688 [handler.py:handle_request():144] handle_request: partial_history
+2023-05-06 11:42:20,488 DEBUG   SenderThread:19688 [sender.py:send():375] send: history
+2023-05-06 11:42:20,488 DEBUG   SenderThread:19688 [sender.py:send_request():402] send_request: summary_record
+2023-05-06 11:42:20,489 INFO    SenderThread:19688 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2023-05-06 11:42:20,493 INFO    Thread-28 :19688 [dir_watcher.py:_on_file_modified():295] file/dir modified: E:\Learning\Remote Sensing and Deep learning\Deep Learning Workshop for Satellite Imagery\wandb\run-20230506_113416-j7sy193d\files\wandb-summary.json
+2023-05-06 11:42:21,504 DEBUG   HandlerThread:19688 [handler.py:handle_request():144] handle_request: status_report
+2023-05-06 11:42:25,206 DEBUG   HandlerThread:19688 [handler.py:handle_request():144] handle_request: keepalive
+2023-05-06 11:42:26,556 DEBUG   HandlerThread:19688 [handler.py:handle_request():144] handle_request: status_report
+2023-05-06 11:42:27,009 DEBUG   SenderThread:19688 [sender.py:send():375] send: stats
+2023-05-06 11:42:30,264 DEBUG   HandlerThread:19688 [handler.py:handle_request():144] handle_request: keepalive
+2023-05-06 11:42:32,050 DEBUG   HandlerThread:19688 [handler.py:handle_request():144] handle_request: status_report
+2023-05-06 11:42:35,310 DEBUG   HandlerThread:19688 [handler.py:handle_request():144] handle_request: keepalive
+2023-05-06 11:42:37,091 DEBUG   HandlerThread:19688 [handler.py:handle_request():144] handle_request: status_report
+2023-05-06 11:42:40,350 DEBUG   HandlerThread:19688 [handler.py:handle_request():144] handle_request: keepalive
+2023-05-06 11:42:42,140 DEBUG   HandlerThread:19688 [handler.py:handle_request():144] handle_request: status_report
+2023-05-06 11:42:45,413 DEBUG   HandlerThread:19688 [handler.py:handle_request():144] handle_request: keepalive
+2023-05-06 11:42:47,201 DEBUG   HandlerThread:19688 [handler.py:handle_request():144] handle_request: status_report
+2023-05-06 11:42:50,472 DEBUG   HandlerThread:19688 [handler.py:handle_request():144] handle_request: keepalive
+2023-05-06 11:42:52,259 DEBUG   HandlerThread:19688 [handler.py:handle_request():144] handle_request: status_report
+2023-05-06 11:42:55,515 DEBUG   HandlerThread:19688 [handler.py:handle_request():144] handle_request: keepalive
+2023-05-06 11:42:56,958 DEBUG   SenderThread:19688 [sender.py:send():375] send: telemetry
+2023-05-06 11:42:56,958 DEBUG   SenderThread:19688 [sender.py:send():375] send: config
+2023-05-06 11:42:57,013 DEBUG   SenderThread:19688 [sender.py:send():375] send: stats
+2023-05-06 11:42:58,025 DEBUG   HandlerThread:19688 [handler.py:handle_request():144] handle_request: status_report
+2023-05-06 11:43:00,563 DEBUG   HandlerThread:19688 [handler.py:handle_request():144] handle_request: keepalive
+2023-05-06 11:43:03,082 DEBUG   HandlerThread:19688 [handler.py:handle_request():144] handle_request: status_report
+2023-05-06 11:43:05,621 DEBUG   HandlerThread:19688 [handler.py:handle_request():144] handle_request: keepalive
+2023-05-06 11:43:08,131 DEBUG   HandlerThread:19688 [handler.py:handle_request():144] handle_request: status_report
+2023-05-06 11:43:10,656 DEBUG   HandlerThread:19688 [handler.py:handle_request():144] handle_request: keepalive
+2023-05-06 11:43:11,158 DEBUG   SenderThread:19688 [sender.py:send():375] send: telemetry
+2023-05-06 11:43:11,158 DEBUG   SenderThread:19688 [sender.py:send():375] send: exit
+2023-05-06 11:43:11,158 INFO    SenderThread:19688 [sender.py:send_exit():598] handling exit code: 0
+2023-05-06 11:43:11,158 INFO    SenderThread:19688 [sender.py:send_exit():600] handling runtime: 524
+2023-05-06 11:43:11,159 INFO    SenderThread:19688 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2023-05-06 11:43:11,159 INFO    SenderThread:19688 [sender.py:send_exit():606] send defer
+2023-05-06 11:43:11,159 DEBUG   HandlerThread:19688 [handler.py:handle_request():144] handle_request: defer
+2023-05-06 11:43:11,159 INFO    HandlerThread:19688 [handler.py:handle_request_defer():170] handle defer: 0
+2023-05-06 11:43:11,160 DEBUG   SenderThread:19688 [sender.py:send_request():402] send_request: defer
+2023-05-06 11:43:11,160 INFO    SenderThread:19688 [sender.py:send_request_defer():622] handle sender defer: 0
+2023-05-06 11:43:11,160 INFO    SenderThread:19688 [sender.py:transition_state():626] send defer: 1
+2023-05-06 11:43:11,160 DEBUG   HandlerThread:19688 [handler.py:handle_request():144] handle_request: defer
+2023-05-06 11:43:11,160 INFO    HandlerThread:19688 [handler.py:handle_request_defer():170] handle defer: 1
+2023-05-06 11:43:11,160 DEBUG   SenderThread:19688 [sender.py:send_request():402] send_request: defer
+2023-05-06 11:43:11,160 INFO    SenderThread:19688 [sender.py:send_request_defer():622] handle sender defer: 1
+2023-05-06 11:43:11,160 INFO    SenderThread:19688 [sender.py:transition_state():626] send defer: 2
+2023-05-06 11:43:11,160 DEBUG   HandlerThread:19688 [handler.py:handle_request():144] handle_request: defer
+2023-05-06 11:43:11,160 INFO    HandlerThread:19688 [handler.py:handle_request_defer():170] handle defer: 2
+2023-05-06 11:43:11,160 INFO    HandlerThread:19688 [system_monitor.py:finish():190] Stopping system monitor
+2023-05-06 11:43:11,160 DEBUG   SystemMonitor:19688 [system_monitor.py:_start():166] Finished system metrics aggregation loop
+2023-05-06 11:43:11,161 INFO    HandlerThread:19688 [interfaces.py:finish():202] Joined cpu monitor
+2023-05-06 11:43:11,166 DEBUG   SystemMonitor:19688 [system_monitor.py:_start():170] Publishing last batch of metrics
+2023-05-06 11:43:11,167 INFO    HandlerThread:19688 [interfaces.py:finish():202] Joined disk monitor
+2023-05-06 11:43:11,203 INFO    HandlerThread:19688 [interfaces.py:finish():202] Joined gpu monitor
+2023-05-06 11:43:11,203 INFO    HandlerThread:19688 [interfaces.py:finish():202] Joined memory monitor
+2023-05-06 11:43:11,203 INFO    HandlerThread:19688 [interfaces.py:finish():202] Joined network monitor
+2023-05-06 11:43:11,203 DEBUG   SenderThread:19688 [sender.py:send_request():402] send_request: defer
+2023-05-06 11:43:11,204 INFO    SenderThread:19688 [sender.py:send_request_defer():622] handle sender defer: 2
+2023-05-06 11:43:11,204 INFO    SenderThread:19688 [sender.py:transition_state():626] send defer: 3
+2023-05-06 11:43:11,204 DEBUG   SenderThread:19688 [sender.py:send():375] send: stats
+2023-05-06 11:43:11,204 DEBUG   HandlerThread:19688 [handler.py:handle_request():144] handle_request: defer
+2023-05-06 11:43:11,204 INFO    HandlerThread:19688 [handler.py:handle_request_defer():170] handle defer: 3
+2023-05-06 11:43:11,204 DEBUG   SenderThread:19688 [sender.py:send_request():402] send_request: defer
+2023-05-06 11:43:11,204 INFO    SenderThread:19688 [sender.py:send_request_defer():622] handle sender defer: 3
+2023-05-06 11:43:11,204 INFO    SenderThread:19688 [sender.py:transition_state():626] send defer: 4
+2023-05-06 11:43:11,204 DEBUG   HandlerThread:19688 [handler.py:handle_request():144] handle_request: defer
+2023-05-06 11:43:11,204 INFO    HandlerThread:19688 [handler.py:handle_request_defer():170] handle defer: 4
+2023-05-06 11:43:11,204 DEBUG   SenderThread:19688 [sender.py:send_request():402] send_request: defer
+2023-05-06 11:43:11,204 INFO    SenderThread:19688 [sender.py:send_request_defer():622] handle sender defer: 4
+2023-05-06 11:43:11,205 INFO    SenderThread:19688 [sender.py:transition_state():626] send defer: 5
+2023-05-06 11:43:11,205 DEBUG   HandlerThread:19688 [handler.py:handle_request():144] handle_request: defer
+2023-05-06 11:43:11,205 INFO    HandlerThread:19688 [handler.py:handle_request_defer():170] handle defer: 5
+2023-05-06 11:43:11,205 DEBUG   SenderThread:19688 [sender.py:send():375] send: summary
+2023-05-06 11:43:11,205 INFO    SenderThread:19688 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2023-05-06 11:43:11,205 DEBUG   SenderThread:19688 [sender.py:send_request():402] send_request: defer
+2023-05-06 11:43:11,206 INFO    SenderThread:19688 [sender.py:send_request_defer():622] handle sender defer: 5
+2023-05-06 11:43:11,206 INFO    SenderThread:19688 [sender.py:transition_state():626] send defer: 6
+2023-05-06 11:43:11,206 DEBUG   HandlerThread:19688 [handler.py:handle_request():144] handle_request: defer
+2023-05-06 11:43:11,206 INFO    HandlerThread:19688 [handler.py:handle_request_defer():170] handle defer: 6
+2023-05-06 11:43:11,206 DEBUG   SenderThread:19688 [sender.py:send_request():402] send_request: defer
+2023-05-06 11:43:11,206 INFO    SenderThread:19688 [sender.py:send_request_defer():622] handle sender defer: 6
+2023-05-06 11:43:11,209 DEBUG   HandlerThread:19688 [handler.py:handle_request():144] handle_request: status_report
+2023-05-06 11:43:11,550 INFO    SenderThread:19688 [sender.py:transition_state():626] send defer: 7
+2023-05-06 11:43:11,550 DEBUG   HandlerThread:19688 [handler.py:handle_request():144] handle_request: defer
+2023-05-06 11:43:11,550 INFO    HandlerThread:19688 [handler.py:handle_request_defer():170] handle defer: 7
+2023-05-06 11:43:11,550 DEBUG   SenderThread:19688 [sender.py:send_request():402] send_request: defer
+2023-05-06 11:43:11,551 INFO    SenderThread:19688 [sender.py:send_request_defer():622] handle sender defer: 7
+2023-05-06 11:43:12,026 INFO    Thread-28 :19688 [dir_watcher.py:_on_file_modified():295] file/dir modified: E:\Learning\Remote Sensing and Deep learning\Deep Learning Workshop for Satellite Imagery\wandb\run-20230506_113416-j7sy193d\files\config.yaml
+2023-05-06 11:43:12,026 INFO    Thread-28 :19688 [dir_watcher.py:_on_file_modified():295] file/dir modified: E:\Learning\Remote Sensing and Deep learning\Deep Learning Workshop for Satellite Imagery\wandb\run-20230506_113416-j7sy193d\files\wandb-summary.json
+2023-05-06 11:43:12,165 DEBUG   HandlerThread:19688 [handler.py:handle_request():144] handle_request: poll_exit
+2023-05-06 11:43:14,632 INFO    SenderThread:19688 [sender.py:transition_state():626] send defer: 8
+2023-05-06 11:43:14,632 DEBUG   SenderThread:19688 [sender.py:send_request():402] send_request: poll_exit
+2023-05-06 11:43:14,632 DEBUG   HandlerThread:19688 [handler.py:handle_request():144] handle_request: defer
+2023-05-06 11:43:14,632 INFO    HandlerThread:19688 [handler.py:handle_request_defer():170] handle defer: 8
+2023-05-06 11:43:14,633 DEBUG   SenderThread:19688 [sender.py:send_request():402] send_request: defer
+2023-05-06 11:43:14,633 INFO    SenderThread:19688 [sender.py:send_request_defer():622] handle sender defer: 8
+2023-05-06 11:43:14,633 INFO    SenderThread:19688 [sender.py:transition_state():626] send defer: 9
+2023-05-06 11:43:14,633 DEBUG   HandlerThread:19688 [handler.py:handle_request():144] handle_request: defer
+2023-05-06 11:43:14,633 INFO    HandlerThread:19688 [handler.py:handle_request_defer():170] handle defer: 9
+2023-05-06 11:43:14,633 DEBUG   SenderThread:19688 [sender.py:send_request():402] send_request: defer
+2023-05-06 11:43:14,633 INFO    SenderThread:19688 [sender.py:send_request_defer():622] handle sender defer: 9
+2023-05-06 11:43:14,633 INFO    SenderThread:19688 [dir_watcher.py:finish():365] shutting down directory watcher
+2023-05-06 11:43:15,068 INFO    SenderThread:19688 [dir_watcher.py:_on_file_modified():295] file/dir modified: E:\Learning\Remote Sensing and Deep learning\Deep Learning Workshop for Satellite Imagery\wandb\run-20230506_113416-j7sy193d\files\output.log
+2023-05-06 11:43:15,068 INFO    SenderThread:19688 [dir_watcher.py:finish():395] scan: E:\Learning\Remote Sensing and Deep learning\Deep Learning Workshop for Satellite Imagery\wandb\run-20230506_113416-j7sy193d\files
+2023-05-06 11:43:15,069 INFO    SenderThread:19688 [dir_watcher.py:finish():409] scan save: E:\Learning\Remote Sensing and Deep learning\Deep Learning Workshop for Satellite Imagery\wandb\run-20230506_113416-j7sy193d\files\config.yaml config.yaml
+2023-05-06 11:43:15,069 INFO    SenderThread:19688 [dir_watcher.py:finish():409] scan save: E:\Learning\Remote Sensing and Deep learning\Deep Learning Workshop for Satellite Imagery\wandb\run-20230506_113416-j7sy193d\files\model-best.h5 model-best.h5
+2023-05-06 11:43:15,071 INFO    SenderThread:19688 [dir_watcher.py:finish():409] scan save: E:\Learning\Remote Sensing and Deep learning\Deep Learning Workshop for Satellite Imagery\wandb\run-20230506_113416-j7sy193d\files\output.log output.log
+2023-05-06 11:43:15,071 INFO    SenderThread:19688 [dir_watcher.py:finish():409] scan save: E:\Learning\Remote Sensing and Deep learning\Deep Learning Workshop for Satellite Imagery\wandb\run-20230506_113416-j7sy193d\files\requirements.txt requirements.txt
+2023-05-06 11:43:15,072 INFO    SenderThread:19688 [dir_watcher.py:finish():409] scan save: E:\Learning\Remote Sensing and Deep learning\Deep Learning Workshop for Satellite Imagery\wandb\run-20230506_113416-j7sy193d\files\wandb-metadata.json wandb-metadata.json
+2023-05-06 11:43:15,072 INFO    SenderThread:19688 [dir_watcher.py:finish():409] scan save: E:\Learning\Remote Sensing and Deep learning\Deep Learning Workshop for Satellite Imagery\wandb\run-20230506_113416-j7sy193d\files\wandb-summary.json wandb-summary.json
+2023-05-06 11:43:15,072 INFO    SenderThread:19688 [dir_watcher.py:finish():409] scan save: E:\Learning\Remote Sensing and Deep learning\Deep Learning Workshop for Satellite Imagery\wandb\run-20230506_113416-j7sy193d\files\media\graph\graph_summary_3fbe27ffa1e54cf91604.graph.json media\graph\graph_summary_3fbe27ffa1e54cf91604.graph.json
+2023-05-06 11:43:15,072 INFO    SenderThread:19688 [sender.py:transition_state():626] send defer: 10
+2023-05-06 11:43:15,072 DEBUG   HandlerThread:19688 [handler.py:handle_request():144] handle_request: defer
+2023-05-06 11:43:15,072 INFO    HandlerThread:19688 [handler.py:handle_request_defer():170] handle defer: 10
+2023-05-06 11:43:15,072 DEBUG   SenderThread:19688 [sender.py:send_request():402] send_request: defer
+2023-05-06 11:43:15,072 INFO    SenderThread:19688 [sender.py:send_request_defer():622] handle sender defer: 10
+2023-05-06 11:43:15,072 INFO    SenderThread:19688 [file_pusher.py:finish():167] shutting down file pusher
+2023-05-06 11:43:15,906 INFO    wandb-upload_4:19688 [upload_job.py:push():137] Uploaded file E:\Learning\Remote Sensing and Deep learning\Deep Learning Workshop for Satellite Imagery\wandb\run-20230506_113416-j7sy193d\files\config.yaml
+2023-05-06 11:43:16,203 INFO    wandb-upload_1:19688 [upload_job.py:push():137] Uploaded file E:\Learning\Remote Sensing and Deep learning\Deep Learning Workshop for Satellite Imagery\wandb\run-20230506_113416-j7sy193d\files\wandb-summary.json
+2023-05-06 11:43:16,216 INFO    wandb-upload_0:19688 [upload_job.py:push():137] Uploaded file E:\Learning\Remote Sensing and Deep learning\Deep Learning Workshop for Satellite Imagery\wandb\run-20230506_113416-j7sy193d\files\output.log
+2023-05-06 11:43:16,234 INFO    wandb-upload_3:19688 [upload_job.py:push():137] Uploaded file E:\Learning\Remote Sensing and Deep learning\Deep Learning Workshop for Satellite Imagery\wandb\run-20230506_113416-j7sy193d\files\requirements.txt
+2023-05-06 11:43:17,210 DEBUG   HandlerThread:19688 [handler.py:handle_request():144] handle_request: keepalive
+2023-05-06 11:43:20,118 DEBUG   HandlerThread:19688 [handler.py:handle_request():144] handle_request: status_report
+2023-05-06 11:43:22,267 DEBUG   HandlerThread:19688 [handler.py:handle_request():144] handle_request: keepalive
+2023-05-06 11:43:25,177 DEBUG   HandlerThread:19688 [handler.py:handle_request():144] handle_request: status_report
+2023-05-06 11:43:27,325 DEBUG   HandlerThread:19688 [handler.py:handle_request():144] handle_request: keepalive
+2023-05-06 11:43:30,232 DEBUG   HandlerThread:19688 [handler.py:handle_request():144] handle_request: status_report
+2023-05-06 11:43:32,369 DEBUG   HandlerThread:19688 [handler.py:handle_request():144] handle_request: keepalive
+2023-05-06 11:43:35,290 DEBUG   HandlerThread:19688 [handler.py:handle_request():144] handle_request: status_report
+2023-05-06 11:43:37,489 DEBUG   HandlerThread:19688 [handler.py:handle_request():144] handle_request: keepalive
+2023-05-06 11:43:40,345 DEBUG   HandlerThread:19688 [handler.py:handle_request():144] handle_request: status_report
+2023-05-06 11:43:42,540 DEBUG   HandlerThread:19688 [handler.py:handle_request():144] handle_request: keepalive
+2023-05-06 11:43:45,367 DEBUG   HandlerThread:19688 [handler.py:handle_request():144] handle_request: status_report
+2023-05-06 11:43:47,591 DEBUG   HandlerThread:19688 [handler.py:handle_request():144] handle_request: keepalive
+2023-05-06 11:43:50,415 DEBUG   HandlerThread:19688 [handler.py:handle_request():144] handle_request: status_report
+2023-05-06 11:43:52,639 DEBUG   HandlerThread:19688 [handler.py:handle_request():144] handle_request: keepalive
+2023-05-06 11:43:53,086 INFO    wandb-upload_2:19688 [upload_job.py:push():137] Uploaded file C:\Users\awlad\AppData\Local\Temp\tmpy0xt01b5wandb\e6zy1hls-model-best.h5
+2023-05-06 11:43:53,292 INFO    Thread-27 (_thread_body):19688 [sender.py:transition_state():626] send defer: 11
+2023-05-06 11:43:53,292 DEBUG   HandlerThread:19688 [handler.py:handle_request():144] handle_request: defer
+2023-05-06 11:43:53,292 INFO    HandlerThread:19688 [handler.py:handle_request_defer():170] handle defer: 11
+2023-05-06 11:43:53,293 DEBUG   SenderThread:19688 [sender.py:send_request():402] send_request: defer
+2023-05-06 11:43:53,293 INFO    SenderThread:19688 [sender.py:send_request_defer():622] handle sender defer: 11
+2023-05-06 11:43:53,293 INFO    SenderThread:19688 [file_pusher.py:join():172] waiting for file pusher
+2023-05-06 11:43:53,293 INFO    SenderThread:19688 [sender.py:transition_state():626] send defer: 12
+2023-05-06 11:43:53,293 DEBUG   HandlerThread:19688 [handler.py:handle_request():144] handle_request: defer
+2023-05-06 11:43:53,293 INFO    HandlerThread:19688 [handler.py:handle_request_defer():170] handle defer: 12
+2023-05-06 11:43:53,293 DEBUG   SenderThread:19688 [sender.py:send_request():402] send_request: defer
+2023-05-06 11:43:53,293 INFO    SenderThread:19688 [sender.py:send_request_defer():622] handle sender defer: 12
+2023-05-06 11:43:53,619 INFO    SenderThread:19688 [sender.py:transition_state():626] send defer: 13
+2023-05-06 11:43:53,619 DEBUG   HandlerThread:19688 [handler.py:handle_request():144] handle_request: defer
+2023-05-06 11:43:53,619 INFO    HandlerThread:19688 [handler.py:handle_request_defer():170] handle defer: 13
+2023-05-06 11:43:53,619 DEBUG   SenderThread:19688 [sender.py:send_request():402] send_request: defer
+2023-05-06 11:43:53,619 INFO    SenderThread:19688 [sender.py:send_request_defer():622] handle sender defer: 13
+2023-05-06 11:43:53,619 INFO    SenderThread:19688 [sender.py:transition_state():626] send defer: 14
+2023-05-06 11:43:53,620 DEBUG   HandlerThread:19688 [handler.py:handle_request():144] handle_request: defer
+2023-05-06 11:43:53,620 DEBUG   SenderThread:19688 [sender.py:send():375] send: final
+2023-05-06 11:43:53,620 INFO    HandlerThread:19688 [handler.py:handle_request_defer():170] handle defer: 14
+2023-05-06 11:43:53,620 DEBUG   SenderThread:19688 [sender.py:send():375] send: footer
+2023-05-06 11:43:53,620 DEBUG   SenderThread:19688 [sender.py:send_request():402] send_request: defer
+2023-05-06 11:43:53,620 INFO    SenderThread:19688 [sender.py:send_request_defer():622] handle sender defer: 14
+2023-05-06 11:43:53,621 DEBUG   HandlerThread:19688 [handler.py:handle_request():144] handle_request: poll_exit
+2023-05-06 11:43:53,621 DEBUG   HandlerThread:19688 [handler.py:handle_request():144] handle_request: server_info
+2023-05-06 11:43:53,621 DEBUG   HandlerThread:19688 [handler.py:handle_request():144] handle_request: get_summary
+2023-05-06 11:43:53,621 DEBUG   SenderThread:19688 [sender.py:send_request():402] send_request: poll_exit
+2023-05-06 11:43:53,621 DEBUG   HandlerThread:19688 [handler.py:handle_request():144] handle_request: sampled_history
+2023-05-06 11:43:53,622 DEBUG   SenderThread:19688 [sender.py:send_request():402] send_request: server_info
+2023-05-06 11:43:53,915 DEBUG   HandlerThread:19688 [handler.py:handle_request():144] handle_request: shutdown
+2023-05-06 11:43:53,916 INFO    HandlerThread:19688 [handler.py:finish():845] shutting down handler
+2023-05-06 11:43:54,661 INFO    WriterThread:19688 [datastore.py:close():298] close: E:\Learning\Remote Sensing and Deep learning\Deep Learning Workshop for Satellite Imagery\wandb\run-20230506_113416-j7sy193d\run-j7sy193d.wandb
+2023-05-06 11:43:54,916 INFO    SenderThread:19688 [sender.py:finish():1550] shutting down sender
+2023-05-06 11:43:54,916 INFO    SenderThread:19688 [file_pusher.py:finish():167] shutting down file pusher
+2023-05-06 11:43:54,916 INFO    SenderThread:19688 [file_pusher.py:join():172] waiting for file pusher

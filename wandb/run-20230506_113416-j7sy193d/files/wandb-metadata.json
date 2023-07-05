@@ -1,0 +1,43 @@
+{
+    "os": "Windows-10-10.0.22621-SP0",
+    "python": "3.10.9",
+    "heartbeatAt": "2023-05-06T05:34:26.905419",
+    "startedAt": "2023-05-06T05:34:16.013671",
+    "docker": null,
+    "cuda": null,
+    "args": null,
+    "state": "running",
+    "program": "<python with no main file>",
+    "host": "DESKTOP-6HOVJRE",
+    "username": "awlad",
+    "executable": "C:\\Users\\awlad\\AppData\\Local\\Programs\\Python\\Python310\\python.exe",
+    "cpu_count": 6,
+    "cpu_count_logical": 6,
+    "cpu_freq": {
+        "current": 3600.0,
+        "min": 0.0,
+        "max": 3600.0
+    },
+    "cpu_freq_per_core": [
+        {
+            "current": 3600.0,
+            "min": 0.0,
+            "max": 3600.0
+        }
+    ],
+    "disk": {
+        "total": 111.78710556030273,
+        "used": 79.6710205078125
+    },
+    "gpu": "NVIDIA GeForce GTX 1650 SUPER",
+    "gpu_count": 1,
+    "gpu_devices": [
+        {
+            "name": "NVIDIA GeForce GTX 1650 SUPER",
+            "memory_total": 4294967296
+        }
+    ],
+    "memory": {
+        "total": 15.931522369384766
+    }
+}
